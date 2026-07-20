@@ -1,0 +1,81 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-07-13T16:11:48.604Z
+FAIL
+------
+Assertion Name: Google OAuth launch verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:12:04.365Z
+Failure Reason: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('iframe[title*="Sign in with Google"], iframe[title*="Continue with Google"]').first().contentFrame().getByRole('button', { name: /sign in with google|continue with google/i }).first()[22m
+[2m    - locator resolved to <div role="button" aria-labelledby="button-label" class="nsm7Bb-HzV7m-LgbsSe  hJDwNd-SxQuSe i5vt6e-Ia7Qfc JGcpL-RbRzK">…</div>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" role="button" class="L5Fo6c-bF1uUb" id="gsi_105200_329872-overlay" aria-label="Sign in with Google. Opens in new tab"></div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" role="button" class="L5Fo6c-bF1uUb" id="gsi_105200_329872-overlay" aria-label="Sign in with Google. Opens in new tab"></div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" role="button" class="L5Fo6c-bF1uUb" id="gsi_105200_329872-overlay" aria-label="Sign in with Google. Opens in new tab"></div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+Exception: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('iframe[title*="Sign in with Google"], iframe[title*="Continue with Google"]').first().contentFrame().getByRole('button', { name: /sign in with google|continue with google/i }).first()[22m
+[2m    - locator resolved to <div role="button" aria-labelledby="button-label" class="nsm7Bb-HzV7m-LgbsSe  hJDwNd-SxQuSe i5vt6e-Ia7Qfc JGcpL-RbRzK">…</div>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" role="button" class="L5Fo6c-bF1uUb" id="gsi_105200_329872-overlay" aria-label="Sign in with Google. Opens in new tab"></div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" role="button" class="L5Fo6c-bF1uUb" id="gsi_105200_329872-overlay" aria-label="Sign in with Google. Opens in new tab"></div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" role="button" class="L5Fo6c-bF1uUb" id="gsi_105200_329872-overlay" aria-label="Sign in with Google. Opens in new tab"></div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+    at GoogleLoginPage.clickGoogleEntryPoint (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\GoogleLoginPage.js:70:27)
+    at GoogleLoginPage.continueWithGoogle (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\GoogleLoginPage.js:37:5)
+    at GoogleLoginPage.launchFreshOAuthFlow (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\GoogleLoginPage.js:101:5)
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\login\googleLogin.spec.js:51:21)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\login\googleLogin.spec.js:48:22
+
+IMPACT
+------
+- Google OAuth close-window interruption could not be validated.
+- Fresh OAuth relaunch verification was skipped.
+
+RECOVERY ACTION
+---------------
+Return to the Rexpt login page and continue with the next scenario.
+
+----------------------------------------

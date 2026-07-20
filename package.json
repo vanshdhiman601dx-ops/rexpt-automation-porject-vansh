@@ -1,0 +1,16 @@
+{
+  "name": "rexpt-automation-script",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for Rexpt.",
+  "type": "module",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}

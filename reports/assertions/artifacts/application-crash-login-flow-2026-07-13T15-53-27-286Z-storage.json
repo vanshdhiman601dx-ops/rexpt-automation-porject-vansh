@@ -1,0 +1,104 @@
+{
+  "cookies": [
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1301535239.1783957751",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1791733751,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1788300076.1783957751",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1847029751,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_EEMT3NPXGV",
+      "value": "GS2.1.s1783957751$o1$g0$t1783957751$j60$l0$h0",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1847029751,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "19qvi9g%5E2%5Eg7p%5E0%5E2385",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1815493751,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":1,\"i_ll\":1783957752519,\"i_b\":\"g3DQYgLpFFOcTbVZC1fApWMS97Yor2XzpTGcBE9+WJs\",\"i_e\":{\"enable_itp_optimization\":24},\"i_et\":1783957752519}",
+      "domain": "rexptin.vercel.app",
+      "path": "/",
+      "expires": 1799509752,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clsk",
+      "value": "wngqnl%5E1783957752809%5E1%5E1%5Eo.clarity.ms%2Fcollect",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1784044152,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "9f71025a-2527-4299-8db7-3a245c40651c9d17c7",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1815493758,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "4b10196a-72ad-4659-9481-ac37a6535bf712fd3f",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1783959558,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://rexptin.vercel.app",
+      "localStorage": [
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"LXiJnIRN3lMpGSEDXV7vIBjHMq7SdwmR5Q\",\"lastJoinedTimeMs\":1783957751068},\"expires\":1783958051068},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1783957751076},\"expires\":1791733751076}}"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "NXk0dHhrbTBobHRw"
+        }
+      ]
+    }
+  ]
+}

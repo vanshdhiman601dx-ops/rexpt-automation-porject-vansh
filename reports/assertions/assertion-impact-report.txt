@@ -1,0 +1,1341 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-07-13T16:04:55.736Z
+PASS
+------
+Assertion Name: Application launch
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:05.482Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Application title verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:05.497Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Login page email mode verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:07.612Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Email entry verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:07.768Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Send OTP request verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:09.790Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP page verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:22.920Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Initial popup close verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:23.001Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - All empty
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:24.919Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - All empty
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:25.630Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - All empty
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:26.789Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Only first box filled
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:27.937Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Only first box filled
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:28.431Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Only first box filled
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:29.784Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Only last box filled
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:31.274Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Only last box filled
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:31.618Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Only last box filled
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:33.077Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - First 5 digits only
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:35.161Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - First 5 digits only
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:35.931Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - First 5 digits only
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:37.073Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Middle box empty
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:39.712Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Middle box empty
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:40.289Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Middle box empty
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:41.512Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Alternate boxes
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:43.068Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Alternate boxes
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:43.429Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Alternate boxes
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:44.644Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Alphabet in one box
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:45.936Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Alphabet in one box
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:46.301Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Alphabet in one box
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:47.991Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Special character
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:50.158Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Special character
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:50.489Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Special character
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:51.909Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Space in one box
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:53.790Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Space in one box
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:54.080Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Space in one box
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:55.379Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Emoji
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:56.879Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Emoji
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:57.130Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Emoji
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:05:58.120Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Decimal
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:00.333Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Decimal
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:00.945Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Decimal
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:02.320Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP input validation - Negative sign
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:03.675Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Negative sign
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:03.926Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Negative sign
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:04.874Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP paste validation - Copy-paste 123456
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:05.596Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP paste validation - Copy-paste 12345
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:06.361Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Copy-paste 12345
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:06.625Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Copy-paste 12345
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:07.903Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP paste validation - Copy-paste 1234567
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:08.882Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP paste validation - Paste alphabets
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:10.569Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Paste alphabets
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:10.933Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Paste alphabets
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:12.305Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP paste validation - Paste special characters
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:13.504Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Paste special characters
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:13.820Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Paste special characters
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:15.053Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP paste validation - Paste mixed values
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:15.962Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup validation - Paste mixed values
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:16.210Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Popup close verification - Paste mixed values
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:17.645Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Invalid OTP input distribution verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:18.757Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Security validation - invalid OTP submission
+Severity: SECURITY
+Timestamp: 2026-07-13T16:06:19.750Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- User remains unauthenticated after invalid authentication attempt.
+
+RECOVERY ACTION
+---------------
+Continue executing remaining authentication validations.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Invalid OTP popup validation
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:20.630Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Invalid OTP popup close verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:22.244Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP timer read verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:06:22.801Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: OTP timer expiration verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:10:21.628Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Security validation - expired OTP submission
+Severity: SECURITY
+Timestamp: 2026-07-13T16:10:45.057Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- User remains unauthenticated after invalid authentication attempt.
+
+RECOVERY ACTION
+---------------
+Continue executing remaining authentication validations.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Expired OTP popup validation
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:10:46.207Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Expired OTP popup close verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:10:47.292Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Resend OTP verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:10:47.696Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Resend OTP popup close verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:10:51.976Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Successful authentication URL verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:07.675Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Successful authentication final URL verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:07.686Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Agent Details page load verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:07.774Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Successful authentication token verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:07.795Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Agent Details logout verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:09.532Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Logout session clear verification
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:09.617Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Login screen verification after logout
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:11.771Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Google authentication after OTP logout
+Severity: ASSERTION
+Timestamp: 2026-07-13T16:11:27.317Z
+Failure Reason: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=/Sign in with Google|Continue with Google/').first()[22m
+[2m    - locator resolved to <span class="nsm7Bb-HzV7m-LgbsSe-BPrWId">Continue with Google</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+
+Exception: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=/Sign in with Google|Continue with Google/').first()[22m
+[2m    - locator resolved to <span class="nsm7Bb-HzV7m-LgbsSe-BPrWId">Continue with Google</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+
+    at GoogleLoginPage.clickGoogleEntryPoint (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\GoogleLoginPage.js:90:68)
+    at GoogleLoginPage.continueWithGoogle (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\GoogleLoginPage.js:37:5)
+    at GoogleLoginPage.launchFreshOAuthFlow (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\GoogleLoginPage.js:101:5)
+    at GoogleLoginPage.completeGoogleAuthentication (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\GoogleLoginPage.js:176:23)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\auth.setup.js:703:35
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\auth.setup.js:503:5
+
+IMPACT
+------
+- Final authenticated session could not be generated through Google login.
+- Storage state generation was skipped.
+
+RECOVERY ACTION
+---------------
+Review Google account configuration or OAuth prompt state before rerunning.
+
+----------------------------------------
+SKIPPED
+------
+Assertion Name: Google login assertions and Sign Up flow
+Severity: SKIPPED
+Timestamp: 2026-07-13T16:11:27.318Z
+Failure Reason: Dependent prerequisite failed.
+Exception: N/A
+
+IMPACT
+------
+- Google authentication after OTP logout did not complete.
+- Google login assertions, logout, session clearing, Sign Up, and storage state generation were skipped.
+
+RECOVERY ACTION
+---------------
+Skipped because executing this validation would produce misleading results.
+
+----------------------------------------

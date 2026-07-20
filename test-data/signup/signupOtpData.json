@@ -1,0 +1,13 @@
+{
+  "expectedTitle": "rexpt - The AI Receptionist Service",
+  "messages": {
+    "otpSent": "One Time Password sent successfully!",
+    "invalidOtp": "Invalid OTP",
+    "invalidOtpFallback": "Failed to verify One Time Password. Please try again.",
+    "validOtpRequired": "Please enter a valid 6-digit OTP."
+  },
+  "terminalMessages": {
+    "firstAttempt": "Please enter the correct OTP.\nYou have only 2 chances.",
+    "lastAttempt": "Be careful!\nThis is your last chance to enter the correct OTP."
+  }
+}
