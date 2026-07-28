@@ -1,13 +1,15 @@
 export const loginLocators = {
-  landingPrimaryCta: 'div:has-text("How it Works")',
-  landingBuildReceptionistCta: 'div:has-text("Build My Receptionist")',
+  landingPrimaryCta: 'button:has-text("How it Works"), [role="button"]:has-text("How it Works")',
+  landingBuildReceptionistCta: 'button:has-text("Build My Receptionist"), [role="button"]:has-text("Build My Receptionist")',
   landingSkipLink: 'text=/^Skip\\s*$/',
   howItWorksButton: 'text=How it Works',
   emailModeToggle: 'text="Sign In with Email"',
   emailInput: 'input[type="email"][placeholder="Enter your email"]',
   passwordInput: '[data-testid="password"]',
   loginButton: '[data-testid="login-button"]',
-  sendOtpButton: 'text="Send One Time Password"',
+  sendOtpButton:
+    '[class*="btnTheme"]:has-text("Send One Time Password"), [class*="BtnDiv"]:has-text("Send One Time Password") [class*="btnTheme"], button:has-text("Send One Time Password")',
+  sendOtpText: 'text="Send One Time Password"',
   otpInput: (index) => `#otp-${index}`,
   otpScreenText: 'text=Enter the code sent to your email',
   otpEmailSentText: 'text=Email has been sent to',
@@ -23,5 +25,9 @@ export const loginLocators = {
   googleLoginSvgButton:
     'xpath=//*[local-name()="svg" and @xmlns="http://www.w3.org/2000/svg"]/ancestor::*[self::button or @role="button"][1]',
   googleLoginText: 'text=/Sign in with Google|Continue with Google/',
+  googleOauthEmailInput: 'input[type="email"], #identifierId',
+  googleOauthPasswordInput: 'input[type="password"], input[name="Passwd"]',
+  googleOauthNextButton: '#identifierNext button, #passwordNext button, button:has-text("Next"), [role="button"]:has-text("Next")',
+  googleOauthContinueButton: 'button:has-text("Continue"), [role="button"]:has-text("Continue"), button:has-text("Allow"), [role="button"]:has-text("Allow")',
   errorMessage: '[data-testid="login-error"]',
 };

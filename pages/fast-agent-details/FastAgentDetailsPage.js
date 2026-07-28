@@ -15,6 +15,68 @@ export class FastAgentDetailsPage {
     });
   }
 
+  async verifyDraftAgentVisible() {
+    const card = this.page.locator(fastAgentDetailsLocators.draftAgent.card).first();
+
+    await expect(card).toBeVisible({
+      timeout: timeouts.pageLoad,
+    });
+    await expect(this.page.locator(fastAgentDetailsLocators.draftAgent.badge).first()).toBeVisible();
+    await expect(this.page.locator(fastAgentDetailsLocators.draftAgent.title).first()).toBeVisible();
+    await expect(this.page.locator(fastAgentDetailsLocators.draftAgent.description).first()).toBeVisible();
+    await expect(this.page.locator(fastAgentDetailsLocators.draftAgent.discardButton).first()).toBeVisible();
+    const button = await this.findVisibleDraftContinueSetupButton();
+    await expect(button).toBeVisible();
+    await expect(button).toBeEnabled();
+  }
+
+  async findVisibleDraftContinueSetupButton() {
+    const buttons = this.page.locator(fastAgentDetailsLocators.draftAgent.continueSetupButton);
+    const count = await buttons.count();
+
+    for (let index = 0; index < count; index += 1) {
+      const button = buttons.nth(index);
+      const visible = await button.isVisible({ timeout: timeouts.quickAction }).catch(() => false);
+      const enabled = visible && (await button.isEnabled().catch(() => false));
+
+      if (visible && enabled) {
+        return button;
+      }
+    }
+
+    return buttons.first();
+  }
+
+  async dismissIntroTourIfVisible() {
+    const closeButton = this.page.locator(fastAgentDetailsLocators.tour.closeButton).first();
+    const skipButton = this.page.locator(fastAgentDetailsLocators.tour.skipButton).first();
+
+    if (await closeButton.isVisible({ timeout: timeouts.quickAction }).catch(() => false)) {
+      await closeButton.click({ timeout: timeouts.action }).catch(() => {});
+    }
+
+    if (await skipButton.isVisible({ timeout: timeouts.quickAction }).catch(() => false)) {
+      await skipButton.click({ timeout: timeouts.action }).catch(() => {});
+    }
+
+    await this.page
+      .locator(fastAgentDetailsLocators.tour.overlay)
+      .first()
+      .waitFor({ state: 'hidden', timeout: timeouts.shortAction })
+      .catch(() => {});
+  }
+
+  async continueDraftSetup() {
+    await this.dismissIntroTourIfVisible();
+    const button = await this.findVisibleDraftContinueSetupButton();
+    await button.scrollIntoViewIfNeeded();
+    await expect(button).toBeVisible({ timeout: timeouts.pageLoad });
+    await expect(button).toBeEnabled({ timeout: timeouts.pageLoad });
+    await button.click({ timeout: timeouts.action }).catch(async () => {
+      await button.evaluate((element) => element.click());
+    });
+  }
+
   async logout() {
     await this.page.locator(fastAgentDetailsLocators.header.logoutButton).click();
     await expect(this.page.locator(fastAgentDetailsLocators.popup.confirmButton)).toBeVisible();

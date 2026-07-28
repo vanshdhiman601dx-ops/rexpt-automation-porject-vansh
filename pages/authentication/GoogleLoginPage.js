@@ -146,29 +146,52 @@ export class GoogleLoginPage {
 
     if (await existingAccount.isVisible({ timeout: timeouts.shortAction }).catch(() => false)) {
       await existingAccount.click();
+      await oauthPage.waitForLoadState('domcontentloaded', { timeout: timeouts.action }).catch(() => {});
       return;
     }
 
-    const emailInput = oauthPage.locator('input[type="email"], #identifierId').first();
+    const emailInput = oauthPage.locator(loginLocators.googleOauthEmailInput).first();
     await expect(emailInput).toBeVisible({ timeout: timeouts.expect });
     await emailInput.fill(email);
-    await oauthPage.getByRole('button', { name: /^next$/i }).click();
+    await this.clickGoogleNext(oauthPage);
   }
 
   async enterPasswordIfPrompted(oauthPage, password) {
-    const passwordInput = oauthPage.locator('input[type="password"]').first();
+    const passwordInput = oauthPage.locator(loginLocators.googleOauthPasswordInput).first();
+    const passwordVisible = await passwordInput
+      .waitFor({ state: 'visible', timeout: timeouts.authRedirect })
+      .then(() => true)
+      .catch(() => false);
 
-    if (await passwordInput.isVisible({ timeout: timeouts.expect }).catch(() => false)) {
-      await passwordInput.fill(password);
-      await oauthPage.getByRole('button', { name: /^next$/i }).click();
+    if (!passwordVisible) {
+      return;
     }
+
+    await passwordInput.click({ timeout: timeouts.action });
+    await passwordInput.fill(password);
+    await expect(passwordInput).toHaveValue(password, { timeout: timeouts.expect });
+    await this.clickGoogleNext(oauthPage);
+    await oauthPage.waitForLoadState('domcontentloaded', { timeout: timeouts.action }).catch(() => {});
+  }
+
+  async clickGoogleNext(oauthPage) {
+    const locator = oauthPage.locator(loginLocators.googleOauthNextButton).first();
+
+    if (await locator.isVisible({ timeout: timeouts.action }).catch(() => false)) {
+      await expect(locator).toBeEnabled({ timeout: timeouts.action });
+      await locator.click({ timeout: timeouts.action });
+      return;
+    }
+
+    await oauthPage.getByRole('button', { name: /^next$/i }).click({ timeout: timeouts.action });
   }
 
   async approveConsentIfPrompted(oauthPage) {
-    const consentButton = oauthPage.getByRole('button', { name: /^(continue|allow)$/i });
+    const consentButton = oauthPage.locator(loginLocators.googleOauthContinueButton).first();
 
     if (await consentButton.isVisible({ timeout: timeouts.action }).catch(() => false)) {
       await consentButton.click();
+      await oauthPage.waitForLoadState('domcontentloaded', { timeout: timeouts.action }).catch(() => {});
     }
   }
 
@@ -178,6 +201,39 @@ export class GoogleLoginPage {
     await this.selectOrEnterEmail(oauthPage, email);
     await this.enterPasswordIfPrompted(oauthPage, password);
     await this.approveConsentIfPrompted(oauthPage);
+
+    await this.page.waitForURL(finalUrl, { timeout: timeouts.authRedirect });
+    await expect(this.page).toHaveURL(finalUrl);
+  }
+
+  async completeGoogleAuthenticationWithSteps({ email, password, finalUrl, resilient }) {
+    const oauthPage = await this.launchFreshOAuthFlow();
+
+    await resilient.run({
+      name: 'Google OAuth email selection or entry',
+      assert: async () => this.selectOrEnterEmail(oauthPage, email),
+      continueOnFailure: false,
+      impact: ['Google OAuth could not select or enter the configured email.'],
+      recoveryAction: 'Stop Google login and inspect Google account selection/email input screen.',
+      severity: 'CRITICAL',
+    });
+
+    await resilient.run({
+      name: 'Google OAuth password entry and Next click',
+      assert: async () => this.enterPasswordIfPrompted(oauthPage, password),
+      continueOnFailure: false,
+      impact: ['Google OAuth password was not filled or the Next button was not clicked.'],
+      recoveryAction: 'Stop Google login and inspect the Google password screen.',
+      severity: 'CRITICAL',
+    });
+
+    await resilient.run({
+      name: 'Google OAuth consent continue if prompted',
+      assert: async () => this.approveConsentIfPrompted(oauthPage),
+      impact: ['Google OAuth consent screen may still be open.'],
+      recoveryAction: 'Continue because consent may not be shown for returning users.',
+      severity: 'VALIDATION',
+    });
 
     await this.page.waitForURL(finalUrl, { timeout: timeouts.authRedirect });
     await expect(this.page).toHaveURL(finalUrl);

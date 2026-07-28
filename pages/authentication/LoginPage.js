@@ -75,8 +75,102 @@ export class LoginPage {
     await expect(this.page.locator(loginLocators.emailInput)).toHaveValue(email);
   }
 
+  async waitForRecaptchaReadyIfPresent() {
+    await expect
+      .poll(async () => this.getRecaptchaStatus(), { timeout: timeouts.action })
+      .toMatchObject({
+        scriptPresent: true,
+        apiPresent: true,
+        readyCallbackResolved: true,
+      });
+  }
+
+  async getRecaptchaStatus() {
+    return this.page.evaluate(async () => {
+      const script = document.querySelector('script[src*="recaptcha/api.js"]');
+      const apiPresent = Boolean(window.grecaptcha?.ready && window.grecaptcha?.execute);
+      let readyCallbackResolved = false;
+
+      if (apiPresent) {
+        readyCallbackResolved = await Promise.race([
+          new Promise((resolve) => window.grecaptcha.ready(() => resolve(true))),
+          new Promise((resolve) => setTimeout(() => resolve(false), 1000)),
+        ]);
+      }
+
+      return {
+        scriptPresent: Boolean(script),
+        apiPresent,
+        readyCallbackResolved,
+      };
+    });
+  }
+
+  async clickWithoutNavigationWait(locator) {
+    await locator.scrollIntoViewIfNeeded().catch(() => {});
+    await locator.click({ timeout: timeouts.action, noWaitAfter: true }).catch(async () => {
+      await locator.evaluate((element) => element.click());
+    });
+  }
+
   async sendOtp() {
-    await this.page.locator(loginLocators.sendOtpButton).click();
+    await this.waitForRecaptchaReadyIfPresent();
+
+    const candidates = this.page.locator(loginLocators.sendOtpButton);
+    const count = await candidates.count();
+
+    for (let index = 0; index < count; index += 1) {
+      const candidate = candidates.nth(index);
+      const visible = await candidate.isVisible({ timeout: timeouts.quickAction }).catch(() => false);
+
+      if (visible) {
+        await this.clickWithoutNavigationWait(candidate);
+        return;
+      }
+    }
+
+    const textCandidate = this.page.locator(loginLocators.sendOtpText).first();
+    if (await textCandidate.isVisible({ timeout: timeouts.quickAction }).catch(() => false)) {
+      const clickable = textCandidate.locator('xpath=ancestor::*[contains(@class, "btnTheme") or self::button or @role="button"][1]');
+
+      if (await clickable.isVisible({ timeout: timeouts.quickAction }).catch(() => false)) {
+        await this.clickWithoutNavigationWait(clickable);
+        return;
+      }
+
+      await this.clickWithoutNavigationWait(textCandidate);
+      return;
+    }
+
+    const clicked = await this.page.evaluate(() => {
+      const elements = Array.from(document.querySelectorAll('button, [role="button"], div, p'));
+      const target = elements.find((element) => {
+        const text = element.textContent || '';
+        const rect = element.getBoundingClientRect();
+        const style = window.getComputedStyle(element);
+
+        return (
+          /Send\s+One\s+Time\s+Password/i.test(text) &&
+          rect.width > 0 &&
+          rect.height > 0 &&
+          style.visibility !== 'hidden' &&
+          style.display !== 'none' &&
+          style.pointerEvents !== 'none'
+        );
+      });
+
+      if (!target) return false;
+
+      const clickable =
+        target.closest('[class*="btnTheme"], button, [role="button"], [class*="BtnDiv"]') || target;
+      clickable.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true }));
+      clickable.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
+      clickable.dispatchEvent(new MouseEvent('mouseup', { bubbles: true }));
+      clickable.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+      return true;
+    });
+
+    expect(clicked, 'Send One Time Password CTA should be clickable.').toBeTruthy();
   }
 
   async verifyOtpScreen(email) {
@@ -200,7 +294,14 @@ export class LoginPage {
     await this.closePopup();
   }
 
+  async waitForAuthToken() {
+    await expect
+      .poll(async () => this.hasAuthToken(), { timeout: timeouts.authRedirect })
+      .toBe(true);
+  }
+
   async saveSession(storageStatePath) {
+    await this.waitForAuthToken();
     await this.page.context().storageState({ path: storageStatePath });
   }
 
@@ -213,7 +314,7 @@ export class LoginPage {
   }
 
   async hasAuthToken() {
-    return this.page.evaluate(() => Boolean(localStorage.getItem('token')));
+    return this.page.evaluate(() => Boolean(localStorage.getItem('token') || sessionStorage.getItem('token')));
   }
 
   isOnUrl(url) {

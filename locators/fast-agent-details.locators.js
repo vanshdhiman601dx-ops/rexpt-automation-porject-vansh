@@ -11,9 +11,14 @@ export const fastAgentDetailsLocators = {
   },
 
   draftAgent: {
+    card: '#tour-draft-card, div:has-text("Finish setting up your first agent")',
     badge: 'text="Draft Agent"',
+    title: 'text="Finish setting up your first agent to start automating your inbound calls."',
+    description:
+      'text="You started setup but haven\'t completed it yet. Pick up where you left off, or discard the draft and start fresh."',
     discardButton: 'button:has-text("Discard")',
-    continueSetupButton: 'button:has-text("Continue Setup")',
+    continueSetupButton:
+      '#tour-draft-continue, button:has-text("Continue Setup"), button:has-text("Start")',
     discardModalTitle: 'text="Discard draft agent?"',
     discardModalCloseButton: 'button:has-text("Close")',
     discardModalContinueButton: 'button:has-text("Continue")',
@@ -192,6 +197,20 @@ export const fastAgentDetailsLocators = {
     refundPolicyLink: 'a[href="https://www.rxpt.ai/terms-condition"]',
   },
 
+  deactivateReasonModal: {
+    reasonRadio: 'input[type="radio"]',
+    otherReasonTextarea: 'textarea[placeholder="Tell us other reason..."]',
+    cancelButton: 'button:has-text("Cancel")',
+    deactivateButton: 'button:has-text("Deactivate")',
+  },
+
+  cancelSubscriptionModal: {
+    reasonRadio: 'input[type="radio"]',
+    otherReasonTextarea: 'textarea[placeholder="Tell us other reason..."]',
+    keepSubscriptionButton: 'button:has-text("Keep Subscription")',
+    yesCancelButton: 'button:has-text("Yes, Cancel")',
+  },
+
   popup: {
     message: '[class*="message"]',
     cancelButton: 'button:has-text("Cancel")',
@@ -215,5 +234,7 @@ export const fastAgentDetailsLocators = {
     doneButton: '.introjs-donebutton',
     skipButton: '.introjs-skipbutton',
     closeButton: '.introjs-closebutton',
+    overlay: '.introjs-overlay, .introjs-helperLayer, .introjs-tooltip',
   },
 };
+

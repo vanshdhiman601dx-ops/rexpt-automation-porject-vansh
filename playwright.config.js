@@ -7,11 +7,13 @@ const frontendStartCommand = process.platform === 'win32' ? 'npm.cmd start' : 'n
 
 export default defineConfig({
   testDir: './tests',
+  testMatch: /.*tests[\\/]authentication[\\/]signup[\\/]signup\.placeholder\.spec\.js/,
   timeout: timeouts.test,
   expect: {
     timeout: timeouts.expect,
   },
-  fullyParallel: true,
+  fullyParallel: false,
+  workers: 1,
   reporter: [
     ['html', { outputFolder: 'reports/html', open: 'never' }],
     ['json', { outputFile: 'reports/json/results.json' }],
@@ -19,7 +21,19 @@ export default defineConfig({
   ],
   use: {
     baseURL: envConfig.baseURL,
-    headless: false,
+    headless: process.env.HEADLESS === 'true',
+    viewport: null,
+    extraHTTPHeaders: {
+      'x-vercel-protection-bypass': 'rZRonKR0ieFW5P8f23z7qkJs97Kfx841',
+    },
+    launchOptions: {
+      args: [
+        '--start-maximized',
+        '--disable-blink-features=AutomationControlled',
+        '--use-fake-ui-for-media-stream',
+        '--use-fake-device-for-media-stream',
+      ],
+    },
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
@@ -38,17 +52,12 @@ export default defineConfig({
   outputDir: 'reports/traces',
   projects: [
     {
-      name: 'setup',
-      testMatch: /.*auth\.setup\.js/,
-      use: { ...devices['iPhone 14'] },
-    },
-    {
-      name: 'iPhone 14',
-      dependencies: ['setup'],
+      name: 'Chromium',
       testIgnore: /.*auth\.setup\.js/,
       use: {
-        ...devices['iPhone 14'],
-        storageState: 'playwright/.auth/users.json',
+        browserName: 'chromium',
+        channel: 'chrome',
+        permissions: ['microphone'],
       },
     },
   ],

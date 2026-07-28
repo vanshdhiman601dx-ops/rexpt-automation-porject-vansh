@@ -22,9 +22,12 @@ export default {
   auth: {
     finalUrl: process.env.AUTH_FINAL_URL || 'https://rexptin.vercel.app/fast-agent-detail',
   },
+  login: {
+    email: process.env.EMAIL_FOR_LOGIN || process.env.LOGIN_TEST_EMAIL || 'vanshdhiman601.dx@gmail.com',
+  },
   googleAccount: {
-    email: process.env.GOOGLE_TEST_EMAIL,
-    password: process.env.GOOGLE_TEST_PASSWORD,
+    email: process.env.GOOGLE_TEST_EMAIL || process.env.EMAIL_FOR_LOGIN,
+    password: process.env.GOOGLE_TEST_PASSWORD || process.env.GOOGLE_LOGIN_PASSWORD,
   },
   signup: {
     email: process.env.SIGNUP_TEST_EMAIL || 'vanshdhiman601.dx+01@gmail.com',
