@@ -34,6 +34,8 @@ jobs:
 
       - name: Run tests
         run: npm test
+        env:
+          HEADLESS: "true"
 
       - name: Upload Playwright report
         if: always()
