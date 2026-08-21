@@ -1,0 +1,1577 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:34:45.828Z
+PASS
+------
+Assertion Name: Personal Details URL verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:34:45.840Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.079Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.178Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Multiple spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.247Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Only numbers
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.326Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Special characters only
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.397Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Mixed special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.455Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.535Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - SQL Drop
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.610Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - XSS Script
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.705Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - HTML Tags
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.778Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.834Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Unicode Symbols
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.903Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Non-English Characters - Chinese
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:46.963Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Non-English Characters - Arabic
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.024Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Non-English Characters - Hindi
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.081Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - New Line
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.131Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Tab Character
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.198Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Zero Width Space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.262Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Extremely Long Name
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.322Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Below Minimum Length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.399Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Only Punctuation
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.460Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Consecutive Special Characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.507Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Starts with Number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.573Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Starts with Underscore
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.636Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Starts with Hyphen
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.694Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Ends with Underscore
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.756Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Ends with Dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.804Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Consecutive Dots
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.866Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Consecutive Underscores
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.934Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Consecutive Hyphens
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:47.999Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Reserved Name
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.089Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.154Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Email Address
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.221Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Phone Number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.297Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - File Path
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.353Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Command Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.419Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Shell Command
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.529Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Null Value
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.585Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - JavaScript
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.645Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - JSON
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.705Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - XML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.753Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Only Underscore
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.828Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Only Hyphen
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.887Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Only Dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.943Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Repeated Characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:48.995Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Name validation - Random Invalid String
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:49.074Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Select United States country code before Phone validation
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:34:49.411Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Repeated Zeros
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:49.549Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Repeated Ones
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:49.644Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Personal Details Phone validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:49.727Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: ""
+- Entered Value: ""
+- Stored Value Attribute: ""
+- Error Visible: false
+- Error Text: N/A
+
+RECOVERY ACTION
+---------------
+Record the scenario failure and continue with the next Phone validation case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:49.806Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Leading spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:49.906Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Trailing spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.004Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Spaces between digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.091Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Alphabets
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.194Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Mixed letters and digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.281Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Uppercase letters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.369Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Lowercase letters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.454Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.532Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Digits with special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.612Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Plus sign
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.708Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Minus sign
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.805Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Parentheses
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.897Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Slash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:50.986Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Backslash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.189Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.277Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Comma
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.342Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Colon
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.424Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Semicolon
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.488Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Underscore
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.555Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.629Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Unicode Symbols
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.707Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Non-English Digits - Arabic
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.791Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Non-English Digits - Hindi
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.870Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:51.952Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - XSS
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.031Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - HTML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.103Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - JavaScript
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.220Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.303Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Email
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.375Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - New Line
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.452Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Tab
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.520Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Zero-width Space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.585Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Only Plus
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.644Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Only Minus
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.705Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Decimal Number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.771Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Scientific Notation
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.835Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Phone validation - Hexadecimal
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:52.925Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: United States country code remains selected before valid Phone submission
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:34:52.969Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Valid US Phone number is accepted
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:34:53.008Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Personal Details Continue redirects to Business Step
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:34:54.119Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

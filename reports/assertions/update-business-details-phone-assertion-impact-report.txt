@@ -1,0 +1,1083 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:37:13.272Z
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:13.774Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: ""
+- Input Method: Typing
+- Entered Value: "+1"
+- Stored Value Attribute: "+1"
+- Digits From Value Attribute: 1
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 1
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178233520-update-phone-empty-field.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:14.096Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: " "
+- Input Method: Typing
+- Entered Value: "+1 (1)"
+- Stored Value Attribute: "+1 (1)"
+- Digits From Value Attribute: 11
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 2
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178233925-update-phone-only-spaces.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - 1 digit
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:14.444Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "1"
+- Input Method: Typing
+- Entered Value: "+1 (111)"
+- Stored Value Attribute: "+1 (111)"
+- Digits From Value Attribute: 1111
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 4
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178234243-update-phone-1-digit.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Less than minimum length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:14.742Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - More than maximum length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:15.596Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "123456789012"
+- Input Method: Typing
+- Entered Value: "+1 (123) 451-1234"
+- Stored Value Attribute: "+1 (123) 451-1234"
+- Digits From Value Attribute: 11234511234
+- Continue Enabled Before Click: true
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 11
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178235374-update-phone-more-than-maximum-length.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - Very long number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:15.956Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "12345678901234567890"
+- Input Method: Paste
+- Entered Value: "+1 (123) 451-1234"
+- Stored Value Attribute: "+1 (123) 451-1234"
+- Digits From Value Attribute: 11234511234
+- Continue Enabled Before Click: true
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 11
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178235742-update-phone-very-long-number.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Alphabets only
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:16.286Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Mixed letters and digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:16.967Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Uppercase letters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:17.584Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Lowercase letters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:18.269Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:18.803Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Digits with special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:19.459Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Spaces between digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:20.038Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Leading space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:20.736Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Trailing space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:21.320Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Hyphen
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:22.013Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Parentheses
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:22.580Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Dot separator
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:23.221Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Slash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:23.899Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Backslash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:24.557Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Plus sign
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:25.168Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Minus sign
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:25.905Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Decimal number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:26.491Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Comma
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:27.168Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Colon
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:27.779Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Semicolon
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:28.438Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Underscore
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:29.059Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:29.601Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Unicode symbols
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:30.085Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Non-English digits Arabic
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:30.614Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Non-English digits Full width
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:31.142Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Tab character
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:31.612Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - New line
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:32.161Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Zero-width space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:32.678Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:33.175Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - XSS Script
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:33.707Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - HTML Tags
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:34.206Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - JavaScript
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:34.817Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:35.329Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Email
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:35.841Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - JSON
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:36.408Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - XML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:36.850Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Minimum length - 1 digit
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:37.354Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Exactly minimum valid length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:38.043Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - Maximum length + 1 digit
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:38.532Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "12345678901"
+- Input Method: Typing
+- Entered Value: "+1 (123) 456-7890"
+- Stored Value Attribute: "+1 (123) 456-7890"
+- Digits From Value Attribute: 11234567890
+- Continue Enabled Before Click: true
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 11
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178258313-update-phone-maximum-length-1-digit.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Paste number longer than maximum length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:38.669Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - Only digits can be typed
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:39.135Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "1234567890"
+- Input Method: Typing
+- Entered Value: "+1 (112) 345-6789"
+- Stored Value Attribute: "+1 (112) 345-6789"
+- Digits From Value Attribute: 11123456789
+- Continue Enabled Before Click: true
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 11
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178258948-update-phone-only-digits-can-be-typed.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Alphabets blocked while typing
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:39.433Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Special characters blocked while typing
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:39.911Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Paste with alphabets rejected
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:40.421Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Paste with special characters rejected
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:40.915Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Paste with spaces rejected
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:41.376Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Paste with emoji rejected
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:41.895Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Phone validation - Field does not accept more than allowed digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:42.528Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "987654321098765"
+- Input Method: Paste
+- Entered Value: "+1 (123) 456-7891"
+- Stored Value Attribute: "+1 (123) 456-7891"
+- Digits From Value Attribute: 11234567891
+- Continue Enabled Before Click: true
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Digit Count: 11
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178262347-update-phone-field-does-not-accept-more-than-allowed-digits.png
+
+RECOVERY ACTION
+---------------
+Record the Phone Number validation failure and continue with the next Phone Number case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Phone validation - Copy-paste valid numeric phone accepted
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:42.677Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details positive Phone Number accepted
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:42.781Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

@@ -1,0 +1,93 @@
+UPDATE YOUR BUSINESS DETAILS BUSINESS NAME VALIDATION REPORT
+===========================================================
+Execution Started: 2026-08-08T08:36:48.356Z
+Scenario: Empty field
+Input Value: ""
+Input Method: Typing
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 0 | Stored Value Attribute Length: 0
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Only spaces
+Input Value: "     "
+Input Method: Typing
+Entered Value: "     "
+Stored Value Attribute: "     "
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 5 | Stored Value Attribute Length: 5
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Extremely long business name
+Input Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Input Method: Paste
+Entered Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Stored Value Attribute: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 50 | Stored Value Attribute Length: 50
+Assertion Status: FAIL
+Reason: Expected red alert, but validation popup was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178208914-update-business-name-extremely-long-business-name.png
+Scenario: XML payload
+Input Value: "<business><name>DSX</name></business>"
+Input Method: Paste
+Entered Value: "designersx"
+Stored Value Attribute: "designersx"
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: true | Recovered From AI Sounds: true | Entered Length: 10 | Stored Value Attribute Length: 10
+Assertion Status: FAIL
+Reason: Expected red alert, but driver was redirected to Your AI Sounds.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178231046-update-business-name-xml-payload.png
+Scenario: JSON payload
+Input Value: "{\"businessName\":\"DSX\"}"
+Input Method: Paste
+Entered Value: "{\"businessName\":\"DSX\"}"
+Stored Value Attribute: "{\"businessName\":\"DSX\"}"
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 22 | Stored Value Attribute Length: 22
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: XSS script
+Input Value: "<script>alert(1)</script>"
+Input Method: Paste
+Entered Value: "<script>alert()</script>"
+Stored Value Attribute: "<script>alert()</script>"
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 24 | Stored Value Attribute Length: 24
+Assertion Status: FAIL
+Reason: Expected red alert, but validation popup was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178231948-update-business-name-xss-script.png
+Scenario: SQL injection
+Input Value: "' OR 1=1 --"
+Input Method: Paste
+Entered Value: "' OR = --"
+Stored Value Attribute: "' OR = --"
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 9 | Stored Value Attribute Length: 9
+Assertion Status: FAIL
+Reason: Expected red alert, but validation popup was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178232275-update-business-name-sql-injection.png
+Scenario: SQL drop statement
+Input Value: "'; DROP TABLE agents;--"
+Input Method: Paste
+Entered Value: "'; DROP TABLE agents;--"
+Stored Value Attribute: "'; DROP TABLE agents;--"
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 23 | Stored Value Attribute Length: 23
+Assertion Status: FAIL
+Reason: Expected red alert, but validation popup was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178232588-update-business-name-sql-drop-statement.png
+Scenario: Maximum 75 characters
+Input Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Input Method: Paste
+Entered Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Stored Value Attribute: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Entered Length: 50 | Stored Value Attribute Length: 50
+Assertion Status: FAIL
+Reason: Expected Business Name value attribute to contain exactly 75 characters after entering more than 75.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178232911-update-business-name-maximum-75-characters.png
+Scenario: Positive Business Name accepted
+Input Value: "DSX"
+Input Method: Typing
+Entered Value: "DSX"
+Stored Value Attribute: "DSX"
+Validation Signal: Positive Business Name retained in input and value attribute.
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A

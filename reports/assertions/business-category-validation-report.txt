@@ -1,0 +1,115 @@
+BUSINESS CATEGORY VALIDATION REPORT
+===================================
+Execution Started: 2026-08-08T08:34:54.134Z
+PASS: Below minimum length
+Input Data: "A"
+Field Value: "A"
+Error Visible: true
+Error Text: Business category must be at least 3 characters
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Special characters only
+Input Data: "@@@"
+Field Value: "@@@"
+Error Visible: true
+Error Text: Special characters are not allowed in the business category
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Emoji
+Input Data: "🙂"
+Field Value: "🙂"
+Error Visible: true
+Error Text: Emojis are not allowed in the business category
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Only digits
+Input Data: "12345"
+Field Value: "12345"
+Error Visible: true
+Error Text: Please enter a valid business category
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Repeated characters
+Input Data: "aaaa"
+Field Value: "aaaa"
+Error Visible: true
+Error Text: Please enter a valid business category
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: No vowel consonant mash
+Input Data: "xkcd"
+Field Value: "xkcd"
+Error Visible: true
+Error Text: Please enter a valid business category
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Keyboard walk
+Input Data: "asdfgh"
+Field Value: "asdfgh"
+Error Visible: true
+Error Text: Please enter a valid business category
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Script payload
+Input Data: "<script>alert(1)</script>"
+Field Value: "<script>alert(1)</script>"
+Error Visible: true
+Error Text: Special characters are not allowed in the business category
+Add Category Visible: N/A
+Failure Reason: N/A
+----------------------------------------
+FAIL: Meaningless random asdqweu
+Input Data: "asdqweu"
+Field Value: "asdqweu"
+Error Visible: false
+Error Text: N/A
+Add Category Visible: true
+Failure Reason: Add Category suggestion appeared for meaningless 7+ character input.
+----------------------------------------
+PASS: Meaningless random zxcvbnm
+Input Data: "zxcvbnm"
+Field Value: "zxcvbnm"
+Error Visible: true
+Error Text: Please enter a valid business category
+Add Category Visible: false
+Failure Reason: N/A
+----------------------------------------
+PASS: Meaningless random qwertyu
+Input Data: "qwertyu"
+Field Value: "qwertyu"
+Error Visible: true
+Error Text: Please enter a valid business category
+Add Category Visible: false
+Failure Reason: N/A
+----------------------------------------
+FAIL: Meaningless random plmokni
+Input Data: "plmokni"
+Field Value: "plmokni"
+Error Visible: false
+Error Text: N/A
+Add Category Visible: true
+Failure Reason: Add Category suggestion appeared for meaningless 7+ character input.
+----------------------------------------
+FAIL: Max length cap
+Input Data: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Field Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Error Visible: true
+Error Text: Please enter a valid business category
+Add Category Visible: N/A
+Failure Reason: Expected max length 30, actual 45.
+----------------------------------------
+PASS: Add Category box trims repeated spaces
+Input Data: "tuktuk      driver"
+Field Value: "tuktuk      driver"
+Error Visible: false
+Error Text: N/A
+Add Category Visible: true
+Failure Reason: N/A
+----------------------------------------

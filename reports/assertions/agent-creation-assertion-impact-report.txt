@@ -1,0 +1,57 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-07T08:59:44.171Z
+FAIL
+------
+Assertion Name: Finish AI Sounds and create agent
+Severity: CRITICAL
+Timestamp: 2026-08-07T09:02:02.803Z
+Failure Reason: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('text="Choose Your Plan"').first()
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 60000ms[22m
+[2m  - waiting for locator('text="Choose Your Plan"').first()[22m
+
+Exception: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('text="Choose Your Plan"').first()
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 60000ms[22m
+[2m  - waiting for locator('text="Choose Your Plan"').first()[22m
+
+    at completeRecommendedPlanAndStripeCheckout (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:5395:77)
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:5967:7)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at runFastStepPostCallFlow (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:5909:3)
+    at runFastStepAgentNameAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:5138:3)
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:4923:7)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at createAgentFromAiSoundsAndStoreMeetDetails (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:4900:3)
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:6103:7)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at prepareFinalBusinessListingDetails (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:6052:3)
+    at runBusinessDetailsBugVerificationAfterEdit (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:6443:5)
+    at runBusinessListingAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:3114:3)
+    at runBusinessDetailsPinAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:2942:3)
+    at runBusinessDetailsNameAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:2761:3)
+    at runOnboardingAfterSignup (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:49:3)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:440:5
+
+IMPACT
+------
+- Driver could not create the agent or capture the Meet agent popup details.
+
+RECOVERY ACTION
+---------------
+Stop flow and inspect the AI Sounds Finish/create-agent lifecycle.
+
+----------------------------------------

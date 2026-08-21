@@ -1,0 +1,563 @@
+UPDATE YOUR BUSINESS DETAILS PHONE NUMBER VALIDATION REPORT
+==========================================================
+Execution Started: 2026-08-08T08:37:13.273Z
+Scenario: Empty field
+Input Value: ""
+Input Method: Typing
+Entered Value: "+1"
+Stored Value Attribute: "+1"
+Digits From Value Attribute: 1
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 1
+Assertion Status: FAIL
+Reason: Expected red alert below Phone Number input field.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178233520-update-phone-empty-field.png
+Scenario: Only spaces
+Input Value: " "
+Input Method: Typing
+Entered Value: "+1 (1)"
+Stored Value Attribute: "+1 (1)"
+Digits From Value Attribute: 11
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 2
+Assertion Status: FAIL
+Reason: Expected red alert or spaces to be blocked from the Phone Number field.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178233925-update-phone-only-spaces.png
+Scenario: 1 digit
+Input Value: "1"
+Input Method: Typing
+Entered Value: "+1 (111)"
+Stored Value Attribute: "+1 (111)"
+Digits From Value Attribute: 1111
+Validation Signal: Continue Enabled Before Click: false | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 4
+Assertion Status: FAIL
+Reason: Expected red alert below Phone Number input field.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178234243-update-phone-1-digit.png
+Scenario: Less than minimum length
+Input Value: "12345"
+Input Method: Typing
+Entered Value: "+1 (123) 45"
+Stored Value Attribute: "+1 (123) 45"
+Digits From Value Attribute: 112345
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 6
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: More than maximum length
+Input Value: "123456789012"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: FAIL
+Reason: Expected Phone Number value attribute to contain no more than 10 digits.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178235374-update-phone-more-than-maximum-length.png
+Scenario: Very long number
+Input Value: "12345678901234567890"
+Input Method: Paste
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: FAIL
+Reason: Expected Phone Number value attribute to contain no more than 10 digits.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178235742-update-phone-very-long-number.png
+Scenario: Alphabets only
+Input Value: "abcdefghij"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Mixed letters and digits
+Input Value: "12345abcde"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Uppercase letters
+Input Value: "ABCDE12345"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Lowercase letters
+Input Value: "abcde12345"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Special characters
+Input Value: "@#$%^&*"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Digits with special characters
+Input Value: "123@456789"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Spaces between digits
+Input Value: "123 456 7890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Leading space
+Input Value: " 1234567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Trailing space
+Input Value: "1234567890 "
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Hyphen
+Input Value: "123-456-7890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Parentheses
+Input Value: "(123)4567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Dot separator
+Input Value: "123.456.7890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Slash
+Input Value: "123/4567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Backslash
+Input Value: "123\\4567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Plus sign
+Input Value: "+1234567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Minus sign
+Input Value: "-1234567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Decimal number
+Input Value: "12345.6789"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Comma
+Input Value: "123,4567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Colon
+Input Value: "123:4567890"
+Input Method: Typing
+Entered Value: "+1 (123) 451-1234"
+Stored Value Attribute: "+1 (123) 451-1234"
+Digits From Value Attribute: 11234511234
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Semicolon
+Input Value: "123;4567890"
+Input Method: Typing
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Underscore
+Input Value: "123_4567890"
+Input Method: Typing
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Emoji
+Input Value: "ðŸ˜Š123456789"
+Input Method: Paste
+Entered Value: "+1 (123) 456-789"
+Stored Value Attribute: "+1 (123) 456-789"
+Digits From Value Attribute: 1123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 10
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Unicode symbols
+Input Value: "â˜Ž123456789"
+Input Method: Paste
+Entered Value: "+1 (123) 456-789"
+Stored Value Attribute: "+1 (123) 456-789"
+Digits From Value Attribute: 1123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 10
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Non-English digits Arabic
+Input Value: "Ù¡Ù¢Ù£Ù¤Ù¥Ù¦Ù§Ù¨Ù©Ù "
+Input Method: Paste
+Entered Value: "+1"
+Stored Value Attribute: "+1"
+Digits From Value Attribute: 1
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 1
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Non-English digits Full width
+Input Value: "ï¼‘ï¼’ï¼“ï¼”ï¼•ï¼–ï¼—ï¼˜ï¼™"
+Input Method: Paste
+Entered Value: "+1"
+Stored Value Attribute: "+1"
+Digits From Value Attribute: 1
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 1
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Tab character
+Input Value: "12345\t6789"
+Input Method: Paste
+Entered Value: "+1 (123) 456-789"
+Stored Value Attribute: "+1 (123) 456-789"
+Digits From Value Attribute: 1123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 10
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: New line
+Input Value: "12345\n6789"
+Input Method: Paste
+Entered Value: "+1 (123) 456-789"
+Stored Value Attribute: "+1 (123) 456-789"
+Digits From Value Attribute: 1123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 10
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Zero-width space
+Input Value: "12345​67890"
+Input Method: Paste
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: SQL Injection
+Input Value: "' OR 1=1 --"
+Input Method: Paste
+Entered Value: "+1 (11)"
+Stored Value Attribute: "+1 (11)"
+Digits From Value Attribute: 111
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 3
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: XSS Script
+Input Value: "<script>alert(1)</script>"
+Input Method: Paste
+Entered Value: "+1 (1)"
+Stored Value Attribute: "+1 (1)"
+Digits From Value Attribute: 11
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 2
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: HTML Tags
+Input Value: "<input>"
+Input Method: Paste
+Entered Value: "+1"
+Stored Value Attribute: "+1"
+Digits From Value Attribute: 1
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 1
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: JavaScript
+Input Value: "javascript:alert(1)"
+Input Method: Paste
+Entered Value: "+1 (1)"
+Stored Value Attribute: "+1 (1)"
+Digits From Value Attribute: 11
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 2
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: URL
+Input Value: "https://google.com"
+Input Method: Paste
+Entered Value: "+1"
+Stored Value Attribute: "+1"
+Digits From Value Attribute: 1
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 1
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Email
+Input Value: "user@gmail.com"
+Input Method: Paste
+Entered Value: "+1"
+Stored Value Attribute: "+1"
+Digits From Value Attribute: 1
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 1
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: JSON
+Input Value: "{\"phone\":\"1234567890\"}"
+Input Method: Paste
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: XML
+Input Value: "<phone>1234567890</phone>"
+Input Method: Paste
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Minimum length - 1 digit
+Input Value: "1"
+Input Method: Typing
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Exactly minimum valid length
+Input Value: "1234567890"
+Input Method: Typing
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Maximum length + 1 digit
+Input Value: "12345678901"
+Input Method: Typing
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: FAIL
+Reason: Expected Phone Number value attribute to contain no more than 10 digits.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178258313-update-phone-maximum-length-1-digit.png
+Scenario: Paste number longer than maximum length
+Input Value: "123456789012345"
+Input Method: Paste
+Entered Value: "+1"
+Stored Value Attribute: "+1"
+Digits From Value Attribute: 1
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 1
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Only digits can be typed
+Input Value: "1234567890"
+Input Method: Typing
+Entered Value: "+1 (112) 345-6789"
+Stored Value Attribute: "+1 (112) 345-6789"
+Digits From Value Attribute: 11123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: FAIL
+Reason: Expected valid numeric phone number to be accepted without red alert or redirect.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178258948-update-phone-only-digits-can-be-typed.png
+Scenario: Alphabets blocked while typing
+Input Value: "abcde"
+Input Method: Typing
+Entered Value: "+1 (112) 345-6789"
+Stored Value Attribute: "+1 (112) 345-6789"
+Digits From Value Attribute: 11123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Special characters blocked while typing
+Input Value: "@#$%"
+Input Method: Typing
+Entered Value: "+1 (112) 345-6789"
+Stored Value Attribute: "+1 (112) 345-6789"
+Digits From Value Attribute: 11123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste with alphabets rejected
+Input Value: "123abc4567"
+Input Method: Paste
+Entered Value: "+1 (123) 456-7"
+Stored Value Attribute: "+1 (123) 456-7"
+Digits From Value Attribute: 11234567
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 8
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste with special characters rejected
+Input Value: "123@456#789"
+Input Method: Paste
+Entered Value: "+1 (123) 456-789"
+Stored Value Attribute: "+1 (123) 456-789"
+Digits From Value Attribute: 1123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 10
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste with spaces rejected
+Input Value: "123 456 7890"
+Input Method: Paste
+Entered Value: "+1 (123) 456-7890"
+Stored Value Attribute: "+1 (123) 456-7890"
+Digits From Value Attribute: 11234567890
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste with emoji rejected
+Input Value: "123ðŸ˜Š456789"
+Input Method: Paste
+Entered Value: "+1 (123) 456-789"
+Stored Value Attribute: "+1 (123) 456-789"
+Digits From Value Attribute: 1123456789
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: true | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 10
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Field does not accept more than allowed digits
+Input Value: "987654321098765"
+Input Method: Paste
+Entered Value: "+1 (123) 456-7891"
+Stored Value Attribute: "+1 (123) 456-7891"
+Digits From Value Attribute: 11234567891
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: FAIL
+Reason: Expected Phone Number value attribute to contain no more than 10 digits.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178262347-update-phone-field-does-not-accept-more-than-allowed-digits.png
+Scenario: Copy-paste valid numeric phone accepted
+Input Value: "8882011203"
+Input Method: Paste
+Entered Value: "+1 (888) 201-1203"
+Stored Value Attribute: "+1 (888) 201-1203"
+Digits From Value Attribute: 18882011203
+Validation Signal: Continue Enabled Before Click: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Digit Count: 11
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Positive Phone Number accepted
+Input Value: "+1 888-201-1203"
+Input Method: Typing
+Entered Value: "+1 (888) 201-1203"
+Stored Value Attribute: "+1 (888) 201-1203"
+Digits From Value Attribute: 18882011203
+Validation Signal: Positive Phone Number retained in input value. Expected Local Digits: 18882011203
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A

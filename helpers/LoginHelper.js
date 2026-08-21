@@ -1,4 +1,4 @@
-import { LoginPage } from '../pages/authentication/LoginPage.js';
+import { LoginPage } from '../flows/Onboardin-flow-A/pages/authentication/LoginPage.js';
 
 export class LoginHelper {
   constructor(page) {

@@ -1,0 +1,325 @@
+PERSONAL DETAILS NAME VALIDATION REPORT
+=======================================
+Execution Started: 2026-08-08T08:34:45.829Z
+PASS: Empty field
+Input Data: ""
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Only spaces
+Input Data: " "
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Multiple spaces
+Input Data: "  "
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Only numbers
+Input Data: "123456"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Special characters only
+Input Data: "@#$%^&*"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Mixed special characters
+Input Data: "john@123"
+Field Value: "john"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: SQL Injection
+Input Data: "' OR 1=1 --"
+Field Value: "OR "
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: SQL Drop
+Input Data: "'; DROP TABLE users;--"
+Field Value: "DROP TABLE users"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: XSS Script
+Input Data: "<script>alert(1)</script>"
+Field Value: "scriptalertscript"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: HTML Tags
+Input Data: "<b>John</b>"
+Field Value: "bJohnb"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Emoji
+Input Data: "ðŸ˜ŠJohn"
+Field Value: "John"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Unicode Symbols
+Input Data: "â™ â˜…âœ“"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Non-English Characters - Chinese
+Input Data: "å¼ ä¸‰"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Non-English Characters - Arabic
+Input Data: "Ù…Ø­Ù…Ø¯"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Non-English Characters - Hindi
+Input Data: "à¤°à¤¾à¤®"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: New Line
+Input Data: "John\nDoe"
+Field Value: "John Doe"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Tab Character
+Input Data: "John\tDoe"
+Field Value: "John Doe"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Zero Width Space
+Input Data: "John​Doe"
+Field Value: "JohnDoe"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Extremely Long Name
+Input Data: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Field Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Below Minimum Length
+Input Data: "A"
+Field Value: "A"
+Error Visible: true
+Error Text: Name must be at least 2 characters.
+Failure Reason: N/A
+----------------------------------------
+PASS: Only Punctuation
+Input Data: "....."
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Consecutive Special Characters
+Input Data: "john__doe"
+Field Value: "johndoe"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Starts with Number
+Input Data: "1john"
+Field Value: "john"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Starts with Underscore
+Input Data: "_john"
+Field Value: "john"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Starts with Hyphen
+Input Data: "-john"
+Field Value: "john"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Ends with Underscore
+Input Data: "john_"
+Field Value: "john"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Ends with Dot
+Input Data: "john."
+Field Value: "john"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Consecutive Dots
+Input Data: "john..doe"
+Field Value: "johndoe"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Consecutive Underscores
+Input Data: "john__doe"
+Field Value: "johndoe"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Consecutive Hyphens
+Input Data: "john--doe"
+Field Value: "johndoe"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Reserved Name
+Input Data: "admin"
+Field Value: "admin"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: URL
+Input Data: "https://abc.com"
+Field Value: "httpsabccom"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Email Address
+Input Data: "john@gmail.com"
+Field Value: "johngmailcom"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Phone Number
+Input Data: "9876543210"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: File Path
+Input Data: "C:\\Users\\Admin"
+Field Value: "CUsersAdmin"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Command Injection
+Input Data: "&& shutdown"
+Field Value: "shutdown"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Shell Command
+Input Data: "rm -rf /"
+Field Value: "rm rf "
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Null Value
+Input Data: "NULL"
+Field Value: "NULL"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: JavaScript
+Input Data: "javascript:alert(1)"
+Field Value: "javascriptalert"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: JSON
+Input Data: "{\"name\":\"john\"}"
+Field Value: "namejohn"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: XML
+Input Data: "<user>john</user>"
+Field Value: "userjohnuser"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Only Underscore
+Input Data: "_"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Only Hyphen
+Input Data: "-"
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Only Dot
+Input Data: "."
+Field Value: ""
+Error Visible: true
+Error Text: Name is required.
+Failure Reason: N/A
+----------------------------------------
+PASS: Repeated Characters
+Input Data: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+Field Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Random Invalid String
+Input Data: "asd@#12!!"
+Field Value: "asd"
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------

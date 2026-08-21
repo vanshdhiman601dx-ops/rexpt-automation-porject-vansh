@@ -1,0 +1,75 @@
+BUSINESS DETAILS BUG VERIFICATION REPORT
+========================================
+Execution Started: 2026-08-08T08:35:32.004Z
+BUG: Edit Business Details businessName data persistence mismatch
+Expected Result: businessName should remain DesignersX - Softwar...
+Actual Result: businessName was DesignersX - Software and Mobile App Development Solutions
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Edit Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178149789-edit-business-details-businessname-data-persistence-mismatch.png
+Timestamp: 2026-08-08T08:35:50.022Z
+----------------------------------------
+BUG: Edit Business Details businessPhone data persistence mismatch
+Expected Result: businessPhone should remain +1 707-309-6903
+Actual Result: businessPhone was +1 (707) 309-6903
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Edit Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178150024-edit-business-details-businessphone-data-persistence-mismatch.png
+Timestamp: 2026-08-08T08:35:50.228Z
+----------------------------------------
+BUG: Edit Business Details address data persistence mismatch
+Expected Result: address should remain 11210 NW 45th St #, ...
+Actual Result: address was 11210 NW 45th St #, Coral Springs, FL 33065, USA
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Edit Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178150240-edit-business-details-address-data-persistence-mismatch.png
+Timestamp: 2026-08-08T08:35:50.470Z
+----------------------------------------
+BUG: Business Name validation redirected to Your AI Sounds
+Expected Result: Invalid Business Name should keep driver on Update Your Business Details with a red alert.
+Actual Result: Driver was redirected to Your AI Sounds screen.
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Update Your Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178209299-business-name-validation-redirected-to-your-ai-sounds.png
+Timestamp: 2026-08-08T08:36:49.496Z
+----------------------------------------
+BUG: Business Details Continue button disabled after Business Name and PIN Code prefill
+Expected Result: Continue button should be enabled after Business Name and PIN Code are populated.
+Actual Result: Continue button was disabled. Business Name: <business><name>DSX</name></business>, PIN Code: 33065.
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178212686-business-details-continue-button-disabled-after-business-name-and-pin-code-prefill.png
+Timestamp: 2026-08-08T08:36:52.986Z
+----------------------------------------
+BUG: Business Email validation redirected to Your AI Sounds
+Expected Result: Invalid Business Email should keep driver on Update Your Business Details with a red alert.
+Actual Result: Driver was redirected to Your AI Sounds screen.
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Update Your Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178271157-business-email-validation-redirected-to-your-ai-sounds.png
+Timestamp: 2026-08-08T08:37:51.365Z
+----------------------------------------
+BUG: Business Details Continue button disabled after Business Name and PIN Code prefill
+Expected Result: Continue button should be enabled after Business Name and PIN Code are populated.
+Actual Result: Continue button was disabled. Business Name: DSX, PIN Code: 33065.
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178274570-business-details-continue-button-disabled-after-business-name-and-pin-code-prefill.png
+Timestamp: 2026-08-08T08:37:54.779Z
+----------------------------------------
+BUG: Business Email validation redirected to Your AI Sounds
+Expected Result: Invalid Business Email should keep driver on Update Your Business Details with a red alert.
+Actual Result: Driver was redirected to Your AI Sounds screen.
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Update Your Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178308252-business-email-validation-redirected-to-your-ai-sounds.png
+Timestamp: 2026-08-08T08:38:28.461Z
+----------------------------------------
+BUG: Business Details Continue button disabled after Business Name and PIN Code prefill
+Expected Result: Continue button should be enabled after Business Name and PIN Code are populated.
+Actual Result: Continue button was disabled. Business Name: DSX, PIN Code: 33065.
+Current URL: https://rexptin.vercel.app/business-step
+Screen Name: Business Details
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178311659-business-details-continue-button-disabled-after-business-name-and-pin-code-prefill.png
+Timestamp: 2026-08-08T08:38:31.920Z
+----------------------------------------

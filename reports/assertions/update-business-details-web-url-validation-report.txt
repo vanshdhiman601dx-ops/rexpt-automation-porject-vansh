@@ -1,0 +1,552 @@
+UPDATE YOUR BUSINESS DETAILS WEB URL VALIDATION REPORT
+======================================================
+Execution Started: 2026-08-08T08:35:55.502Z
+Scenario: Empty field
+Input Value: ""
+Input Method: Typing
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Only spaces
+Input Value: "     "
+Input Method: Typing
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Plain text
+Input Value: "example"
+Input Method: Typing
+Entered Value: "https://example"
+Stored Value Attribute: "https://example"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing protocol
+Input Value: "www.google.com"
+Input Method: Typing
+Entered Value: "https://google.com"
+Stored Value Attribute: "https://google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing domain
+Input Value: "https://"
+Input Method: Typing
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing TLD
+Input Value: "https://google"
+Input Method: Typing
+Entered Value: "https://google"
+Stored Value Attribute: "https://google"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing domain name
+Input Value: "https://.com"
+Input Method: Typing
+Entered Value: "https://.com"
+Stored Value Attribute: "https://.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Invalid protocol
+Input Value: "htp://google.com"
+Input Method: Typing
+Entered Value: "https://htp://google.com"
+Stored Value Attribute: "https://htp://google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Misspelled protocol
+Input Value: "http//google.com"
+Input Method: Typing
+Entered Value: "https://http//google.com"
+Stored Value Attribute: "https://http//google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: No colon after protocol
+Input Value: "https//google.com"
+Input Method: Typing
+Entered Value: "https://https//google.com"
+Stored Value Attribute: "https://https//google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Single slash after protocol
+Input Value: "https:/google.com"
+Input Method: Typing
+Entered Value: "https://https:/google.com"
+Stored Value Attribute: "https://https:/google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Too many slashes
+Input Value: "https:////google.com"
+Input Method: Typing
+Entered Value: "https:////google.com"
+Stored Value Attribute: "https:////google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Space in URL
+Input Value: "https://goo gle.com"
+Input Method: Typing
+Entered Value: "https://goo gle.com"
+Stored Value Attribute: "https://goo gle.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Leading space
+Input Value: " https://google.com"
+Input Method: Typing
+Entered Value: "https://google.com"
+Stored Value Attribute: "https://google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Trailing space
+Input Value: "https://google.com "
+Input Method: Typing
+Entered Value: "https://google.com "
+Stored Value Attribute: "https://google.com "
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Double dots
+Input Value: "https://google..com"
+Input Method: Typing
+Entered Value: "https://google..com"
+Stored Value Attribute: "https://google..com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Starts with dot
+Input Value: "https://.google.com"
+Input Method: Typing
+Entered Value: "https://.google.com"
+Stored Value Attribute: "https://.google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Ends with dot
+Input Value: "https://google.com."
+Input Method: Typing
+Entered Value: "https://google.com."
+Stored Value Attribute: "https://google.com."
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Invalid characters
+Input Value: "https://goo<>gle.com"
+Input Method: Typing
+Entered Value: "https://goo<>gle.com"
+Stored Value Attribute: "https://goo<>gle.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Emoji
+Input Value: "https://Ã°Å¸ËœÅ .com"
+Input Method: Typing
+Entered Value: "https://Ã°Å¸ËœÅ .com"
+Stored Value Attribute: "https://Ã°Å¸ËœÅ .com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Special characters only
+Input Value: "@#$%^&*"
+Input Method: Typing
+Entered Value: "https://@#$%^&*"
+Stored Value Attribute: "https://@#$%^&*"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Multiple protocols
+Input Value: "https://http://google.com"
+Input Method: Typing
+Entered Value: "https://google.com"
+Stored Value Attribute: "https://google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: FTP URL
+Input Value: "ftp://example.com"
+Input Method: Typing
+Entered Value: "https://ftp://example.com"
+Stored Value Attribute: "https://ftp://example.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: File URL
+Input Value: "file:///C:/test.txt"
+Input Method: Typing
+Entered Value: "https://file:///C:/test.txt"
+Stored Value Attribute: "https://file:///C:/test.txt"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Mailto URL
+Input Value: "mailto:test@gmail.com"
+Input Method: Typing
+Entered Value: "https://mailto:test@gmail.com"
+Stored Value Attribute: "https://mailto:test@gmail.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: JavaScript URL
+Input Value: "javascript:alert(1)"
+Input Method: Typing
+Entered Value: "https://javascript:alert(1)"
+Stored Value Attribute: "https://javascript:alert(1)"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Data URL
+Input Value: "data:text/html;base64,..."
+Input Method: Typing
+Entered Value: "https://data:text/html;base64,..."
+Stored Value Attribute: "https://data:text/html;base64,..."
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: SQL Injection
+Input Value: "' OR 1=1 --"
+Input Method: Typing
+Entered Value: "https://' OR 1=1 --"
+Stored Value Attribute: "https://' OR 1=1 --"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: SQL Drop
+Input Value: "'; DROP TABLE users;--"
+Input Method: Typing
+Entered Value: "https://'; DROP TABLE users;--"
+Stored Value Attribute: "https://'; DROP TABLE users;--"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: XSS Script
+Input Value: "<script>alert(1)</script>"
+Input Method: Typing
+Entered Value: "https://<script>alert(1)</script>"
+Stored Value Attribute: "https://<script>alert(1)</script>"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: HTML Tags
+Input Value: "<a href=\"https://google.com\">"
+Input Method: Typing
+Entered Value: "https://<a href=\"https://google.com\">"
+Stored Value Attribute: "https://<a href=\"https://google.com\">"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: JSON
+Input Value: "{\"url\":\"https://google.com\"}"
+Input Method: Typing
+Entered Value: "https://{\"url\":\"https://google.com\"}"
+Stored Value Attribute: "https://{\"url\":\"https://google.com\"}"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: XML
+Input Value: "<url>https://google.com</url>"
+Input Method: Typing
+Entered Value: "https://<url>https://google.com</url>"
+Stored Value Attribute: "https://<url>https://google.com</url>"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Backslash
+Input Value: "https:\\\\google.com"
+Input Method: Typing
+Entered Value: "https://https:\\\\google.com"
+Stored Value Attribute: "https://https:\\\\google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Forward slash only
+Input Value: "////google.com"
+Input Method: Typing
+Entered Value: "https://////google.com"
+Stored Value Attribute: "https://////google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Consecutive slashes
+Input Value: "https://google.com//page"
+Input Method: Typing
+Entered Value: "https://google.com//page"
+Stored Value Attribute: "https://google.com//page"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Invalid IP
+Input Value: "http://999.999.999.999"
+Input Method: Typing
+Entered Value: "https://999.999.999.999"
+Stored Value Attribute: "https://999.999.999.999"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Invalid port
+Input Value: "https://google.com:999999"
+Input Method: Typing
+Entered Value: "https://google.com:999999"
+Stored Value Attribute: "https://google.com:999999"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Non-English domain
+Input Value: "https://Ã Â¤â€”Ã Â¥â€šÃ Â¤â€”Ã Â¤Â².com"
+Input Method: Typing
+Entered Value: "https://Ã Â¤â€”Ã Â¥â€šÃ Â¤â€”Ã Â¤Â².com"
+Stored Value Attribute: "https://Ã Â¤â€”Ã Â¥â€šÃ Â¤â€”Ã Â¤Â².com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Zero-width space
+Input Value: "https://goo​gle.com"
+Input Method: Typing
+Entered Value: "https://goo​gle.com"
+Stored Value Attribute: "https://goo​gle.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: New line
+Input Value: "https://google\n.com"
+Input Method: Typing
+Entered Value: "https://google.com"
+Stored Value Attribute: "https://google.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Tab
+Input Value: "https://google\t.com"
+Input Method: Typing
+Entered Value: "https://google\t.com"
+Stored Value Attribute: "https://google\t.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Extremely long URL
+Input Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Input Method: Paste
+Entered Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Stored Value Attribute: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: 1 character
+Input Value: "a"
+Input Method: Typing
+Entered Value: "https://a"
+Stored Value Attribute: "https://a"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Below minimum length
+Input Value: "a.c"
+Input Method: Typing
+Entered Value: "https://a.c"
+Stored Value Attribute: "https://a.c"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Exactly minimum valid URL
+Input Value: "a.co"
+Input Method: Typing
+Entered Value: "https://a.co"
+Stored Value Attribute: "https://a.co"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: true | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: FAIL
+Reason: Expected valid Web URL to show green valid icon without validation popup or red invalid icon.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178193331-update-web-url-exactly-minimum-valid-url.png
+Scenario: Maximum supported length
+Input Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Input Method: Paste
+Entered Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Stored Value Attribute: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: true | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: FAIL
+Reason: Expected valid Web URL to show green valid icon without validation popup or red invalid icon.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178195970-update-web-url-maximum-supported-length.png
+Scenario: Above maximum length
+Input Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Input Method: Paste
+Entered Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Stored Value Attribute: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste only spaces
+Input Value: "     "
+Input Method: Paste
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste plain text
+Input Value: "google"
+Input Method: Paste
+Entered Value: "https://google"
+Stored Value Attribute: "https://google"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste email
+Input Value: "user@gmail.com"
+Input Method: Paste
+Entered Value: "https://user@gmail.com"
+Stored Value Attribute: "https://user@gmail.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste phone number
+Input Value: "9876543210"
+Input Method: Paste
+Entered Value: "https://9876543210"
+Stored Value Attribute: "https://9876543210"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste SQL injection
+Input Value: "' OR 1=1 --"
+Input Method: Paste
+Entered Value: "https://' OR 1=1 --"
+Stored Value Attribute: "https://' OR 1=1 --"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste XSS payload
+Input Value: "<script>alert(1)</script>"
+Input Method: Paste
+Entered Value: "https://<script>alert(1)</script>"
+Stored Value Attribute: "https://<script>alert(1)</script>"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste HTML
+Input Value: "<img src=x onerror=alert(1)>"
+Input Method: Paste
+Entered Value: "https://<img src=x onerror=alert(1)>"
+Stored Value Attribute: "https://<img src=x onerror=alert(1)>"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste JavaScript URL
+Input Value: "javascript:alert(1)"
+Input Method: Paste
+Entered Value: "https://javascript:alert(1)"
+Stored Value Attribute: "https://javascript:alert(1)"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste URL with leading/trailing spaces
+Input Value: " https://google.com "
+Input Method: Paste
+Entered Value: "https:// https://google.com "
+Stored Value Attribute: "https:// https://google.com "
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste URL with emoji
+Input Value: "https://Ã°Å¸ËœÅ .com"
+Input Method: Paste
+Entered Value: "https://Ã°Å¸ËœÅ .com"
+Stored Value Attribute: "https://Ã°Å¸ËœÅ .com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste hidden zero-width characters
+Input Value: "https://goo​gle.com"
+Input Method: Paste
+Entered Value: "https://goo​gle.com"
+Stored Value Attribute: "https://goo​gle.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste URL longer than max
+Input Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Input Method: Paste
+Entered Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Stored Value Attribute: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Validation Signal: Popup Visible: true | Valid URL Icon Visible: false | Invalid URL Icon Visible: false | Continue Enabled Before Click: true | No Website Checkbox Checked Before Validation: false | No Website Checkbox Checked After Validation: false | No Website Checkbox Auto-check Bug Logged: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Positive Web URL accepted
+Input Value: "designersx.us"
+Input Method: Typing
+Entered Value: "https://designersx.us"
+Stored Value Attribute: "https://designersx.us"
+Validation Signal: Popup Visible: false | Valid URL Icon Visible: false | Invalid URL Icon Visible: false
+Assertion Status: FAIL
+Reason: Expected positive Web URL to remain accepted without validation signals.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178208143-update-web-url-positive.png

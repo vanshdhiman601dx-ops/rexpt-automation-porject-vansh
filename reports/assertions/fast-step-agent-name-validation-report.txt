@@ -1,0 +1,463 @@
+FAST STEP AGENT NAME VALIDATION REPORT
+======================================
+Execution Started: 2026-08-07T08:59:50.468Z
+Scenario: Empty field
+Input Value: ""
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Only spaces
+Input Value: " "
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: " "
+Meet Agent Name While Editing: Meet
+Meet Agent Name After Scenario: Meet
+Assertion Status: FAIL
+Reason: Expected input to be rejected/trimmed and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093190688-fast-step-agent-name-only-spaces.png
+Scenario: Leading spaces
+Input Value: " John"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: " John"
+Meet Agent Name While Editing: John
+Meet Agent Name After Scenario: John
+Assertion Status: FAIL
+Reason: Expected input to be rejected/trimmed and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093191003-fast-step-agent-name-leading-spaces.png
+Scenario: Trailing spaces
+Input Value: "John "
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John "
+Meet Agent Name While Editing: John
+Meet Agent Name After Scenario: John
+Assertion Status: FAIL
+Reason: Expected input to be rejected/trimmed and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093191326-fast-step-agent-name-trailing-spaces.png
+Scenario: Multiple consecutive spaces
+Input Value: "John  Doe"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John  Doe"
+Meet Agent Name While Editing: John Doe
+Meet Agent Name After Scenario: John Doe
+Assertion Status: FAIL
+Reason: Expected input to be rejected/normalized and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093191742-fast-step-agent-name-multiple-consecutive-spaces.png
+Scenario: 16 characters
+Input Value: "ABCDEFGHIJKLMNOP"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "ABCDEFGHIJKLMN"
+Meet Agent Name While Editing: ABCDEFGHIJKLMN
+Meet Agent Name After Scenario: ABCDEFGHIJKLMN
+Assertion Status: FAIL
+Reason: Expected value to be limited to 15 characters and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093192254-fast-step-agent-name-16-characters.png
+Scenario: 20 characters
+Input Value: "ABCDEFGHIJKLMNOPQRST"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "ABCDEFGHIJKLMN"
+Meet Agent Name While Editing: ABCDEFGHIJKLMN
+Meet Agent Name After Scenario: ABCDEFGHIJKLMN
+Assertion Status: FAIL
+Reason: Expected value to be limited to 15 characters and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093192696-fast-step-agent-name-20-characters.png
+Scenario: 100+ characters
+Input Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "AAAAAAAAAAAAAA"
+Meet Agent Name While Editing: AAAAAAAAAAAAAA
+Meet Agent Name After Scenario: AAAAAAAAAAAAAA
+Assertion Status: FAIL
+Reason: Expected value to be limited to 15 characters and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093193011-fast-step-agent-name-100-characters.png
+Scenario: Only numbers
+Input Value: "123456"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Mixed letters and numbers
+Input Value: "John123"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John"
+Meet Agent Name While Editing: John
+Meet Agent Name After Scenario: John
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093193596-fast-step-agent-name-mixed-letters-and-numbers.png
+Scenario: Special characters
+Input Value: "@#$%^&*"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Mixed special characters
+Input Value: "John@Doe"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "JohnDoe"
+Meet Agent Name While Editing: JohnDoe
+Meet Agent Name After Scenario: JohnDoe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194051-fast-step-agent-name-mixed-special-characters.png
+Scenario: SQL Injection
+Input Value: "' OR 1=1 --"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: " OR  "
+Meet Agent Name While Editing: OR
+Meet Agent Name After Scenario: OR
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194316-fast-step-agent-name-sql-injection.png
+Scenario: SQL Drop
+Input Value: "'; DROP TABLE users;--"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: " DROP TABLE "
+Meet Agent Name While Editing: DROP TABLE
+Meet Agent Name After Scenario: DROP TABLE
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194596-fast-step-agent-name-sql-drop.png
+Scenario: XSS Script
+Input Value: "<script>alert(1)</script>"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "scriptalert"
+Meet Agent Name While Editing: scriptalert
+Meet Agent Name After Scenario: scriptalert
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194848-fast-step-agent-name-xss-script.png
+Scenario: HTML Tags
+Input Value: "<b>John</b>"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "bJohnb"
+Meet Agent Name While Editing: bJohnb
+Meet Agent Name After Scenario: bJohnb
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093195204-fast-step-agent-name-html-tags.png
+Scenario: JavaScript
+Input Value: "javascript:alert(1)"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "javascriptale"
+Meet Agent Name While Editing: javascriptale
+Meet Agent Name After Scenario: javascriptale
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093195495-fast-step-agent-name-javascript.png
+Scenario: URL
+Input Value: "https://google.com"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "httpsgoogle"
+Meet Agent Name While Editing: httpsgoogle
+Meet Agent Name After Scenario: httpsgoogle
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093195765-fast-step-agent-name-url.png
+Scenario: Email Address
+Input Value: "john@gmail.com"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "johngmailcom"
+Meet Agent Name While Editing: johngmailcom
+Meet Agent Name After Scenario: johngmailcom
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093196000-fast-step-agent-name-email-address.png
+Scenario: Phone Number
+Input Value: "9876543210"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Emoji
+Input Value: "ðŸ˜ŠJohn"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John"
+Meet Agent Name While Editing: John
+Meet Agent Name After Scenario: John
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093196506-fast-step-agent-name-emoji.png
+Scenario: Unicode Symbols
+Input Value: "â˜…John"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John"
+Meet Agent Name While Editing: John
+Meet Agent Name After Scenario: John
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093196899-fast-step-agent-name-unicode-symbols.png
+Scenario: New Line
+Input Value: "John\nDoe"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John Doe"
+Meet Agent Name While Editing: John Doe
+Meet Agent Name After Scenario: John Doe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197167-fast-step-agent-name-new-line.png
+Scenario: Tab Character
+Input Value: "John\tDoe"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John\tDoe"
+Meet Agent Name While Editing: John Doe
+Meet Agent Name After Scenario: John Doe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197409-fast-step-agent-name-tab-character.png
+Scenario: Zero-width Space
+Input Value: "John​Doe"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "JohnDoe"
+Meet Agent Name While Editing: JohnDoe
+Meet Agent Name After Scenario: JohnDoe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197663-fast-step-agent-name-zero-width-space.png
+Scenario: Slash
+Input Value: "John/Doe"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "JohnDoe"
+Meet Agent Name While Editing: JohnDoe
+Meet Agent Name After Scenario: JohnDoe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197986-fast-step-agent-name-slash.png
+Scenario: Backslash
+Input Value: "John\\Doe"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "JohnDoe"
+Meet Agent Name While Editing: JohnDoe
+Meet Agent Name After Scenario: JohnDoe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093198229-fast-step-agent-name-backslash.png
+Scenario: Underscore
+Input Value: "John_Doe"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "JohnDoe"
+Meet Agent Name While Editing: JohnDoe
+Meet Agent Name After Scenario: JohnDoe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093198570-fast-step-agent-name-underscore.png
+Scenario: Consecutive dots
+Input Value: "John..Doe"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "JohnDoe"
+Meet Agent Name While Editing: JohnDoe
+Meet Agent Name After Scenario: JohnDoe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093198876-fast-step-agent-name-consecutive-dots.png
+Scenario: Only punctuation
+Input Value: "....."
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: JSON
+Input Value: "{\"name\":\"John\"}"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "nameJohn"
+Meet Agent Name While Editing: nameJohn
+Meet Agent Name After Scenario: nameJohn
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093199271-fast-step-agent-name-json.png
+Scenario: XML
+Input Value: "<name>John</name>"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "nameJohnna"
+Meet Agent Name While Editing: nameJohnna
+Meet Agent Name After Scenario: nameJohnna
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093199568-fast-step-agent-name-xml.png
+Scenario: 14 characters
+Input Value: "ABCDEFGHIJKLMN"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "ABCDEFGHIJKLMN"
+Meet Agent Name While Editing: ABCDEFGHIJKLMN
+Meet Agent Name After Scenario: ABCDEFGHIJKLMN
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Exactly 15 characters
+Input Value: "ABCDEFGHIJKLMNO"
+Input Method: Typing
+Original Meet Agent Name: Olivia
+Input Value After Edit: "ABCDEFGHIJKLMN"
+Meet Agent Name While Editing: ABCDEFGHIJKLMN
+Meet Agent Name After Scenario: ABCDEFGHIJKLMN
+Assertion Status: FAIL
+Reason: Expected boundary value ABCDEFGHIJKLMNO to be accepted and reflected while editing.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093200231-fast-step-agent-name-exactly-15-characters.png
+Scenario: Paste longer than 15 characters
+Input Value: "ABCDEFGHIJKLMNOPQRST"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "ABCDEFGHIJKLMN"
+Meet Agent Name While Editing: ABCDEFGHIJKLMN
+Meet Agent Name After Scenario: ABCDEFGHIJKLMN
+Assertion Status: FAIL
+Reason: Expected value to be limited to 15 characters and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093200614-fast-step-agent-name-paste-longer-than-15-characters.png
+Scenario: Paste only numbers
+Input Value: "123456"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste special characters
+Input Value: "@#$%^&*"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste SQL injection
+Input Value: "' OR 1=1 --"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: " OR  "
+Meet Agent Name While Editing: OR
+Meet Agent Name After Scenario: OR
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201086-fast-step-agent-name-paste-sql-injection.png
+Scenario: Paste XSS payload
+Input Value: "<img src=x onerror=alert(1)>"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "img srcx one"
+Meet Agent Name While Editing: img srcx one
+Meet Agent Name After Scenario: img srcx one
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201364-fast-step-agent-name-paste-xss-payload.png
+Scenario: Paste HTML
+Input Value: "<b>John</b>"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "bJohnb"
+Meet Agent Name While Editing: bJohnb
+Meet Agent Name After Scenario: bJohnb
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201654-fast-step-agent-name-paste-html.png
+Scenario: Paste emoji
+Input Value: "ðŸ˜ŠJohn"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "John"
+Meet Agent Name While Editing: John
+Meet Agent Name After Scenario: John
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201970-fast-step-agent-name-paste-emoji.png
+Scenario: Paste URL
+Input Value: "https://google.com"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "httpsgoogle"
+Meet Agent Name While Editing: httpsgoogle
+Meet Agent Name After Scenario: httpsgoogle
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093202238-fast-step-agent-name-paste-url.png
+Scenario: Paste email address
+Input Value: "john@gmail.com"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "johngmailcom"
+Meet Agent Name While Editing: johngmailcom
+Meet Agent Name After Scenario: johngmailcom
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093202544-fast-step-agent-name-paste-email-address.png
+Scenario: Paste phone number
+Input Value: "9876543210"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: ""
+Meet Agent Name While Editing: Olivia
+Meet Agent Name After Scenario: Olivia
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste text with leading/trailing spaces
+Input Value: " John "
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: " John "
+Meet Agent Name While Editing: John
+Meet Agent Name After Scenario: John
+Assertion Status: FAIL
+Reason: Expected input to be rejected/trimmed and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093202955-fast-step-agent-name-paste-text-with-leading-trailing-spaces.png
+Scenario: Paste hidden zero-width characters
+Input Value: "John​Doe"
+Input Method: Paste
+Original Meet Agent Name: Olivia
+Input Value After Edit: "JohnDoe"
+Meet Agent Name While Editing: JohnDoe
+Meet Agent Name After Scenario: JohnDoe
+Assertion Status: FAIL
+Reason: Expected invalid characters to be blocked and Meet name to remain Olivia.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093203272-fast-step-agent-name-paste-hidden-zero-width-characters.png

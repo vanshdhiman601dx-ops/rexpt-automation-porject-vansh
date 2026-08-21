@@ -1,0 +1,48 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-07-23T14:33:00.677Z
+FAIL
+------
+Assertion Name: Update Business Details final positive data redirects to Your AI Sounds
+Severity: CRITICAL
+Timestamp: 2026-07-23T14:34:00.943Z
+Failure Reason: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('text="your AI sounds"').first()
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 60000ms[22m
+[2m  - waiting for locator('text="your AI sounds"').first()[22m
+
+Exception: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('text="your AI sounds"').first()
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 60000ms[22m
+[2m  - waiting for locator('text="your AI sounds"').first()[22m
+
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:4116:67)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at continueUpdateBusinessDetailsToAiSounds (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:4109:3)
+    at runBusinessDetailsBugVerificationAfterEdit (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:4455:5)
+    at runBusinessListingAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:2821:3)
+    at runBusinessDetailsPinAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:2662:3)
+    at runBusinessDetailsNameAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:2481:3)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:4527:5
+
+IMPACT
+------
+- Driver could not move from Update Your Business Details to Choose how your AI sounds after positive data.
+
+RECOVERY ACTION
+---------------
+Stop flow and review final positive Update Your Business Details submission.
+
+----------------------------------------

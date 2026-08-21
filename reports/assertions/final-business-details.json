@@ -1,0 +1,45 @@
+{
+  "updateYourBusinessDetails": {
+    "businessName": "DSX",
+    "businessPhone": "+1 (188) 820-1120",
+    "email": "vanshdhiman601.dx@gmail.com",
+    "website": "https://designersx.us",
+    "address": "11210 NW 45th Street, Coral Springs, FL 33065"
+  },
+  "businessListingLooksGoodPopup": {
+    "businessName": "DesignersX - Softwar...",
+    "businessPhone": "+1 707-309-6903",
+    "email": "vanshdhiman601.dx@gmail.com",
+    "website": "https://designersx.us",
+    "address": "11210 NW 45th St #, ..."
+  },
+  "expectedPositiveData": {
+    "simpleBusinessName": "designersx",
+    "pinCode": "33065",
+    "businessEmail": "vanshdhiman601.dx@gmail.com",
+    "updateBusinessDetails": {
+      "webUrl": "designersx.us",
+      "businessName": "DSX",
+      "phoneNumber": "+1 888-201-1203",
+      "businessAddress": "11210 NW 45th Street, Coral Springs, FL 33065",
+      "businessEmail": "vanshdhiman601.dx@gmail.com"
+    }
+  },
+  "currentUrl": "https://rexptin.vercel.app/business-step",
+  "storedAt": "2026-08-07T09:00:03.525Z",
+  "purpose": "Used for matching these business details in later application screens.",
+  "agentCreation": {
+    "status": "Agent created successfully",
+    "fastStepUrl": "https://rexptin.vercel.app/fast-step",
+    "meetPopupTitle": "Meet Olivia",
+    "agentName": "Olivia",
+    "createdAt": "2026-08-07T08:59:50.463Z"
+  },
+  "fastStepAgentNameValidation": {
+    "originalAgentName": "Olivia",
+    "restoredAgentName": "Olivia",
+    "reportFile": "C:\\Users\\Designersx\\Desktop\\Rexpt_Automation_Project_2021239054\\rexpt-automation-script\\reports\\assertions\\fast-step-agent-name-validation-report.txt",
+    "assertionReportFile": "reports/assertions/fast-step-agent-name-assertion-impact-report.txt",
+    "completedAt": "2026-08-07T09:00:03.523Z"
+  }
+}

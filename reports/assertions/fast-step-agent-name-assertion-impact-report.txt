@@ -1,0 +1,1192 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-07T08:59:50.466Z
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:50.596Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:50.884Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: " "
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: " "
+- Meet Agent Name While Editing: Meet
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093190688-fast-step-agent-name-only-spaces.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Leading spaces
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:51.199Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: " John"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: " John"
+- Meet Agent Name While Editing: John
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093191003-fast-step-agent-name-leading-spaces.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Trailing spaces
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:51.533Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John "
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John "
+- Meet Agent Name While Editing: John
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093191326-fast-step-agent-name-trailing-spaces.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Multiple consecutive spaces
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:51.989Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John  Doe"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John  Doe"
+- Meet Agent Name While Editing: John Doe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093191742-fast-step-agent-name-multiple-consecutive-spaces.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - 16 characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:52.472Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "ABCDEFGHIJKLMNOP"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "ABCDEFGHIJKLMN"
+- Meet Agent Name While Editing: ABCDEFGHIJKLMN
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093192254-fast-step-agent-name-16-characters.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - 20 characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:52.912Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "ABCDEFGHIJKLMNOPQRST"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "ABCDEFGHIJKLMN"
+- Meet Agent Name While Editing: ABCDEFGHIJKLMN
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093192696-fast-step-agent-name-20-characters.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - 100+ characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:53.250Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "AAAAAAAAAAAAAA"
+- Meet Agent Name While Editing: AAAAAAAAAAAAAA
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093193011-fast-step-agent-name-100-characters.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Only numbers
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:53.422Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Mixed letters and numbers
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:53.778Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John123"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John"
+- Meet Agent Name While Editing: John
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093193596-fast-step-agent-name-mixed-letters-and-numbers.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Special characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:53.923Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Mixed special characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:54.225Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John@Doe"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "JohnDoe"
+- Meet Agent Name While Editing: JohnDoe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194051-fast-step-agent-name-mixed-special-characters.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:54.485Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "' OR 1=1 --"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: " OR  "
+- Meet Agent Name While Editing: OR
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194316-fast-step-agent-name-sql-injection.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - SQL Drop
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:54.753Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "'; DROP TABLE users;--"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: " DROP TABLE "
+- Meet Agent Name While Editing: DROP TABLE
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194596-fast-step-agent-name-sql-drop.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - XSS Script
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:55.014Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<script>alert(1)</script>"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "scriptalert"
+- Meet Agent Name While Editing: scriptalert
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093194848-fast-step-agent-name-xss-script.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - HTML Tags
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:55.386Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<b>John</b>"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "bJohnb"
+- Meet Agent Name While Editing: bJohnb
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093195204-fast-step-agent-name-html-tags.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - JavaScript
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:55.676Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "javascript:alert(1)"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "javascriptale"
+- Meet Agent Name While Editing: javascriptale
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093195495-fast-step-agent-name-javascript.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - URL
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:55.916Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "https://google.com"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "httpsgoogle"
+- Meet Agent Name While Editing: httpsgoogle
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093195765-fast-step-agent-name-url.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Email Address
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:56.174Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "john@gmail.com"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "johngmailcom"
+- Meet Agent Name While Editing: johngmailcom
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093196000-fast-step-agent-name-email-address.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Phone Number
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:56.277Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:56.807Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "ðŸ˜ŠJohn"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John"
+- Meet Agent Name While Editing: John
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093196506-fast-step-agent-name-emoji.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Unicode Symbols
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:57.060Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "â˜…John"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John"
+- Meet Agent Name While Editing: John
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093196899-fast-step-agent-name-unicode-symbols.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - New Line
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:57.321Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John\nDoe"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John Doe"
+- Meet Agent Name While Editing: John Doe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197167-fast-step-agent-name-new-line.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Tab Character
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:57.560Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John\tDoe"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John\tDoe"
+- Meet Agent Name While Editing: John Doe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197409-fast-step-agent-name-tab-character.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Zero-width Space
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:57.890Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John​Doe"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "JohnDoe"
+- Meet Agent Name While Editing: JohnDoe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197663-fast-step-agent-name-zero-width-space.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Slash
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:58.142Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John/Doe"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "JohnDoe"
+- Meet Agent Name While Editing: JohnDoe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093197986-fast-step-agent-name-slash.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Backslash
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:58.398Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John\\Doe"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "JohnDoe"
+- Meet Agent Name While Editing: JohnDoe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093198229-fast-step-agent-name-backslash.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Underscore
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:58.742Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John_Doe"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "JohnDoe"
+- Meet Agent Name While Editing: JohnDoe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093198570-fast-step-agent-name-underscore.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Consecutive dots
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:59.043Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John..Doe"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "JohnDoe"
+- Meet Agent Name While Editing: JohnDoe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093198876-fast-step-agent-name-consecutive-dots.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Only punctuation
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:59.165Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - JSON
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:59.447Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "{\"name\":\"John\"}"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "nameJohn"
+- Meet Agent Name While Editing: nameJohn
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093199271-fast-step-agent-name-json.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - XML
+Severity: VALIDATION
+Timestamp: 2026-08-07T08:59:59.797Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<name>John</name>"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "nameJohnna"
+- Meet Agent Name While Editing: nameJohnna
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093199568-fast-step-agent-name-xml.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - 14 characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:00.014Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Exactly 15 characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:00.419Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "ABCDEFGHIJKLMNO"
+- Input Method: Typing
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "ABCDEFGHIJKLMN"
+- Meet Agent Name While Editing: ABCDEFGHIJKLMN
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093200231-fast-step-agent-name-exactly-15-characters.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste longer than 15 characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:00.805Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "ABCDEFGHIJKLMNOPQRST"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "ABCDEFGHIJKLMN"
+- Meet Agent Name While Editing: ABCDEFGHIJKLMN
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093200614-fast-step-agent-name-paste-longer-than-15-characters.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Paste only numbers
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:00.913Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Paste special characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:01.002Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste SQL injection
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:01.273Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "' OR 1=1 --"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: " OR  "
+- Meet Agent Name While Editing: OR
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201086-fast-step-agent-name-paste-sql-injection.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste XSS payload
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:01.555Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<img src=x onerror=alert(1)>"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "img srcx one"
+- Meet Agent Name While Editing: img srcx one
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201364-fast-step-agent-name-paste-xss-payload.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste HTML
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:01.862Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<b>John</b>"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "bJohnb"
+- Meet Agent Name While Editing: bJohnb
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201654-fast-step-agent-name-paste-html.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste emoji
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:02.149Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "ðŸ˜ŠJohn"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "John"
+- Meet Agent Name While Editing: John
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093201970-fast-step-agent-name-paste-emoji.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste URL
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:02.441Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "https://google.com"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "httpsgoogle"
+- Meet Agent Name While Editing: httpsgoogle
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093202238-fast-step-agent-name-paste-url.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste email address
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:02.790Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "john@gmail.com"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "johngmailcom"
+- Meet Agent Name While Editing: johngmailcom
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093202544-fast-step-agent-name-paste-email-address.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Fast Step Agent Name validation - Paste phone number
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:02.874Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste text with leading/trailing spaces
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:03.164Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: " John "
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: " John "
+- Meet Agent Name While Editing: John
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093202955-fast-step-agent-name-paste-text-with-leading-trailing-spaces.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Fast Step Agent Name validation - Paste hidden zero-width characters
+Severity: VALIDATION
+Timestamp: 2026-08-07T09:00:03.449Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "John​Doe"
+- Input Method: Paste
+- Original Meet Agent Name: Olivia
+- Input Value After Edit: "JohnDoe"
+- Meet Agent Name While Editing: JohnDoe
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786093203272-fast-step-agent-name-paste-hidden-zero-width-characters.png
+
+RECOVERY ACTION
+---------------
+Record Fast Step Agent Name validation failure and continue with the next scenario.
+
+----------------------------------------

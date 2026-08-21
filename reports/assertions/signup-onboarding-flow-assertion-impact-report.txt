@@ -1,0 +1,91 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-20T11:37:48.215Z
+PASS
+------
+Assertion Name: Store authenticated session after Sign Up
+Severity: CRITICAL
+Timestamp: 2026-08-20T11:38:00.625Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: BUG - Draft Agent card appeared immediately after Signup
+Severity: BUG
+Timestamp: 2026-08-20T11:38:00.851Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:48:43)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:13)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:46:23
+    at runOnboardingAfterSignup (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:35:3)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\authentication\signup\signup.placeholder.spec.js:442:5
+
+IMPACT
+------
+- A newly signed-up user was sent to the Draft Agent resume entry point instead of Business Phone Number.
+- Actual URL: https://rexptin.vercel.app/fast-agent-detail
+
+RECOVERY ACTION
+---------------
+Click Continue Setup and return to the Business Phone Number screen.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: BUG - Browser Back opened Exit App popup from Business Phone Number screen
+Severity: BUG
+Timestamp: 2026-08-20T11:38:03.330Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:91:43)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:13)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:89:23
+    at runOnboardingAfterSignup (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:35:3)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\flows\Onboardin-flow-A\tests\authentication\signup\signup.placeholder.spec.js:442:5
+
+IMPACT
+------
+- Browser Back displayed an Exit App confirmation during initial onboarding.
+- Actual URL: https://rexptin.vercel.app/business-step
+
+RECOVERY ACTION
+---------------
+Click Keep Setting Up and restore the Business Phone Number screen.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Browser navigation restores Business Phone Number screen
+Severity: CRITICAL
+Timestamp: 2026-08-20T11:38:03.444Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

@@ -1,0 +1,984 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:35:19.106Z
+PASS
+------
+Assertion Name: Business Name is cleared before PIN Code validation
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:19.149Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:19.285Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:19.403Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - 1 digit
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:19.733Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "1"
+- Input Method: Typing
+- Entered Value: "1"
+- Actual Stored Value: "1"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Short PIN Code remained without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178119519-pin-1-digit.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - 2 digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:20.349Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "12"
+- Input Method: Typing
+- Entered Value: "12"
+- Actual Stored Value: "12"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Short PIN Code remained without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178119888-pin-2-digits.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - 3 digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:20.731Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "123"
+- Input Method: Typing
+- Entered Value: "123"
+- Actual Stored Value: "123"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Short PIN Code remained without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178120536-pin-3-digits.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - 4 digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:21.096Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "1234"
+- Input Method: Typing
+- Entered Value: "1234"
+- Actual Stored Value: "1234"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Short PIN Code remained without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178120868-pin-4-digits.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - More than 5 digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:21.289Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Very long number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:21.414Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - Alphabets only
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:21.761Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "ABCDE"
+- Input Method: Typing
+- Entered Value: "ABCDE"
+- Actual Stored Value: "ABCDE"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178121552-pin-alphabets-only.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - Lowercase alphabets
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:22.099Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "abcde"
+- Input Method: Typing
+- Entered Value: "ABCDE"
+- Actual Stored Value: "ABCDE"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178121910-pin-lowercase-alphabets.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Mixed digits and alphabets
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:22.248Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:22.402Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Digits with special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:22.544Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Alphanumeric with special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:22.693Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Hyphen
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:22.850Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Decimal number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:23.039Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Comma
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:23.238Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Slash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:23.376Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Backslash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:23.512Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Plus sign
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:23.666Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Minus sign
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:23.805Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Parentheses
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:23.952Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Spaces between digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.095Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Leading space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.217Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Trailing space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.336Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Tab character
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.465Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - New line
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.581Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.716Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Unicode symbols
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.879Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Non-English digits - Fullwidth
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:24.990Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Non-English digits - Arabic
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:25.077Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Zero-width space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:25.181Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:25.662Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "' OR 1=1 --"
+- Input Method: Paste
+- Entered Value: "OR1"
+- Actual Stored Value: "OR1"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178125295-pin-sql-injection.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - XSS Script
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:26.011Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<script>alert(1)</script>"
+- Input Method: Paste
+- Entered Value: "SCRIP"
+- Actual Stored Value: "SCRIP"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178125800-pin-xss-script.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - HTML Tags
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:26.349Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<input>"
+- Input Method: Paste
+- Entered Value: "INPUT"
+- Actual Stored Value: "INPUT"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178126121-pin-html-tags.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - JavaScript
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:26.730Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "javascript:alert(1)"
+- Input Method: Paste
+- Entered Value: "JAVASC"
+- Actual Stored Value: "JAVASC"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178126527-pin-javascript.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:27.093Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "https://12345.com"
+- Input Method: Paste
+- Entered Value: "HTTPS"
+- Actual Stored Value: "HTTPS"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178126855-pin-url.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Email
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:27.213Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - JSON
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:27.555Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "{\"zip\":\"12345\"}"
+- Input Method: Paste
+- Entered Value: "ZIP"
+- Actual Stored Value: "ZIP"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178127330-pin-json.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - XML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:27.844Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<zip>12345</zip>"
+- Input Method: Paste
+- Entered Value: "ZIP1"
+- Actual Stored Value: "ZIP1"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Invalid characters accepted without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178127686-pin-xml.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details PIN Code validation - Minimum Length - 1
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:28.294Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "1234"
+- Input Method: Typing
+- Entered Value: "1234"
+- Actual Stored Value: "1234"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Validation Result: Short PIN Code remained without validation message
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178127974-pin-minimum-length-1.png
+
+RECOVERY ACTION
+---------------
+Record the PIN Code validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Exactly 5 Digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:28.533Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN Code validation - Maximum Length + 1
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:28.677Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Wrong PIN Code displays Enter Manually box
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:30.804Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Valid 5-digit PIN Code is accepted
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:31.871Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details PIN positive Continue moves to Business Listing screen
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:32.001Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

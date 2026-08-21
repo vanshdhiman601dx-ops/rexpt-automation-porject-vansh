@@ -1,0 +1,1241 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:35:32.002Z
+PASS
+------
+Assertion Name: Business Listing screen verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:32.958Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Select first Google Business result
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:36.333Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Missing @
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:36.588Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Missing username
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:37.073Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Listing Email validation - Missing domain
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:37.421Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "john@"
+- Input Method: Typing
+- Field Value: "john@"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178137186-email-missing-domain.png
+
+RECOVERY ACTION
+---------------
+Record the Business Listing email validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Missing top-level domain
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:37.637Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Missing domain name
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:37.873Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Missing dot after domain
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:38.106Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Multiple @ symbols
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:38.340Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Multiple dots
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:38.538Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Starts with dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:38.773Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Ends with dot before @
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:39.011Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Dot immediately after @
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:39.240Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Ends with dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:39.471Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Consecutive dots in domain
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:39.762Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Space inside email
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:39.948Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Tab character
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:40.174Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - New line
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:40.418Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Listing Email validation - Only username
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:40.881Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "john"
+- Input Method: Typing
+- Field Value: "john"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178140529-email-only-username.png
+
+RECOVERY ACTION
+---------------
+Record the Business Listing email validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Only domain
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:41.123Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Special characters only
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:41.322Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Invalid special characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:41.560Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Comma instead of dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:41.798Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Semicolon
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:42.003Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Colon
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:42.217Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Slash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:42.436Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Backslash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:42.677Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:42.864Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Unicode symbols
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:43.061Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:43.251Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - SQL Drop
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:43.516Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - XSS Script
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:43.759Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - HTML Tags
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:43.958Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - JavaScript
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:44.177Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:44.402Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Phone Number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:44.660Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - JSON
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:44.877Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - XML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:45.107Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Zero-width space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:45.352Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Invalid TLD
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:45.575Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Numeric TLD
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:45.760Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Listing Email validation - Username length exceeds limit
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:46.181Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+- Input Method: Paste
+- Field Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178145868-email-username-length-exceeds-limit.png
+
+RECOVERY ACTION
+---------------
+Record the Business Listing email validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Listing Email validation - Domain length exceeds limit
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:46.532Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "john@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+- Input Method: Paste
+- Field Value: "john@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178146294-email-domain-length-exceeds-limit.png
+
+RECOVERY ACTION
+---------------
+Record the Business Listing email validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Listing Email validation - Email exceeds maximum allowed length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:46.878Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+- Input Method: Paste
+- Field Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+- Validation Message Status: NOT VISIBLE
+- Error Text: N/A
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178146656-email-email-exceeds-maximum-allowed-length.png
+
+RECOVERY ACTION
+---------------
+Record the Business Listing email validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Minimum valid email length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:47.010Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Maximum valid email length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:47.125Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste text without @
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:47.354Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:47.578Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:47.790Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste HTML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:48.013Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste JavaScript
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:48.232Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:48.463Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste email with leading and trailing spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:48.563Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste multiple email addresses
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:48.872Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Paste email containing hidden zero-width characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:49.071Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing Email validation - Uppercase email accepted
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:49.195Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Listing positive email is accepted before Edit
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:49.492Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Click Edit icon from Looks Good popup
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:49.695Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Edit redirects to Enter Your Business Details screen
+Severity: BUG
+Timestamp: 2026-08-08T08:35:49.725Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Edit Business Details businessName matches stored Looks Good data
+Severity: BUG
+Timestamp: 2026-08-08T08:35:50.024Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Field: businessName
+- Expected: DesignersX - Softwar...
+- Actual: DesignersX - Software and Mobile App Development Solutions
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178149789-edit-business-details-businessname-data-persistence-mismatch.png
+
+RECOVERY ACTION
+---------------
+Record the persistence mismatch and continue bug verification.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Edit Business Details businessPhone matches stored Looks Good data
+Severity: BUG
+Timestamp: 2026-08-08T08:35:50.231Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Field: businessPhone
+- Expected: +1 707-309-6903
+- Actual: +1 (707) 309-6903
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178150024-edit-business-details-businessphone-data-persistence-mismatch.png
+
+RECOVERY ACTION
+---------------
+Record the persistence mismatch and continue bug verification.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Edit Business Details email matches stored Looks Good data
+Severity: BUG
+Timestamp: 2026-08-08T08:35:50.235Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Edit Business Details website matches stored Looks Good data
+Severity: BUG
+Timestamp: 2026-08-08T08:35:50.238Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Edit Business Details address matches stored Looks Good data
+Severity: BUG
+Timestamp: 2026-08-08T08:35:50.475Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Field: address
+- Expected: 11210 NW 45th St #, ...
+- Actual: 11210 NW 45th St #, Coral Springs, FL 33065, USA
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178150240-edit-business-details-address-data-persistence-mismatch.png
+
+RECOVERY ACTION
+---------------
+Record the persistence mismatch and continue bug verification.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Edit Business Details field-clear verification passed by navigating to Your AI Sounds
+Severity: INFO
+Timestamp: 2026-08-08T08:35:51.058Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Return from Your AI Sounds to Business Details using bottom dot 2
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:54.058Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details simple prefill has Business Name and PIN Code
+Severity: BUG
+Timestamp: 2026-08-08T08:35:54.134Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Continue from recovered Business Details to Business Listing
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:54.957Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

@@ -1,0 +1,531 @@
+BUSINESS DETAILS PIN CODE VALIDATION REPORT
+===========================================
+Execution Started: 2026-08-08T08:35:19.107Z
+PASS: Empty field
+Test Data: ""
+Input Method: Typing
+Entered Value: ""
+Actual Stored Value: ""
+Validation Message Status: VISIBLE
+Error Text: Please enter your zip / postal code.
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Only spaces
+Test Data: " "
+Input Method: Typing
+Entered Value: ""
+Actual Stored Value: ""
+Validation Message Status: VISIBLE
+Error Text: Please enter your zip / postal code.
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: 1 digit
+Test Data: "1"
+Input Method: Typing
+Entered Value: "1"
+Actual Stored Value: "1"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected validation for less than 5 digits. Entered: "1".
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178119519-pin-1-digit.png
+----------------------------------------
+FAIL: 2 digits
+Test Data: "12"
+Input Method: Typing
+Entered Value: "12"
+Actual Stored Value: "12"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected validation for less than 5 digits. Entered: "12".
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178119888-pin-2-digits.png
+----------------------------------------
+FAIL: 3 digits
+Test Data: "123"
+Input Method: Typing
+Entered Value: "123"
+Actual Stored Value: "123"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected validation for less than 5 digits. Entered: "123".
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178120536-pin-3-digits.png
+----------------------------------------
+FAIL: 4 digits
+Test Data: "1234"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected validation for less than 5 digits. Entered: "1234".
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178120868-pin-4-digits.png
+----------------------------------------
+PASS: More than 5 digits
+Test Data: "123456"
+Input Method: Typing
+Entered Value: "12345"
+Actual Stored Value: "12345"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Very long number
+Test Data: "123456789012345"
+Input Method: Paste
+Entered Value: "12345"
+Actual Stored Value: "12345"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: Alphabets only
+Test Data: "ABCDE"
+Input Method: Typing
+Entered Value: "ABCDE"
+Actual Stored Value: "ABCDE"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178121552-pin-alphabets-only.png
+----------------------------------------
+FAIL: Lowercase alphabets
+Test Data: "abcde"
+Input Method: Typing
+Entered Value: "ABCDE"
+Actual Stored Value: "ABCDE"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178121910-pin-lowercase-alphabets.png
+----------------------------------------
+PASS: Mixed digits and alphabets
+Test Data: "12AB3"
+Input Method: Typing
+Entered Value: "123"
+Actual Stored Value: "123"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Special characters
+Test Data: "@#$%&"
+Input Method: Typing
+Entered Value: ""
+Actual Stored Value: ""
+Validation Message Status: VISIBLE
+Error Text: Please enter your zip / postal code.
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Digits with special characters
+Test Data: "12@34"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Alphanumeric with special characters
+Test Data: "12AB@3"
+Input Method: Typing
+Entered Value: "123"
+Actual Stored Value: "123"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Hyphen
+Test Data: "123-4"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Decimal number
+Test Data: "12.34"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Comma
+Test Data: "12,34"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Slash
+Test Data: "12/34"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Backslash
+Test Data: "12\\34"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Plus sign
+Test Data: "+1234"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Minus sign
+Test Data: "-1234"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Parentheses
+Test Data: "(1234)"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Spaces between digits
+Test Data: "12 34"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Leading space
+Test Data: " 12345"
+Input Method: Paste
+Entered Value: "12345"
+Actual Stored Value: "12345"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Trailing space
+Test Data: "12345 "
+Input Method: Paste
+Entered Value: "12345"
+Actual Stored Value: "12345"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Tab character
+Test Data: "12\t34"
+Input Method: Paste
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: New line
+Test Data: "12\n34"
+Input Method: Paste
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Emoji
+Test Data: "ðŸ˜Š1234"
+Input Method: Paste
+Entered Value: "12"
+Actual Stored Value: "12"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Unicode symbols
+Test Data: "â˜…1234"
+Input Method: Paste
+Entered Value: "123"
+Actual Stored Value: "123"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Non-English digits - Fullwidth
+Test Data: "ï¼‘ï¼’ï¼“ï¼”ï¼•"
+Input Method: Paste
+Entered Value: ""
+Actual Stored Value: ""
+Validation Message Status: VISIBLE
+Error Text: Please enter your zip / postal code.
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Non-English digits - Arabic
+Test Data: "Ù¡Ù¢Ù£Ù¤Ù¥"
+Input Method: Paste
+Entered Value: ""
+Actual Stored Value: ""
+Validation Message Status: VISIBLE
+Error Text: Please enter your zip / postal code.
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Zero-width space
+Test Data: "12​345"
+Input Method: Paste
+Entered Value: "12345"
+Actual Stored Value: "12345"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: SQL Injection
+Test Data: "' OR 1=1 --"
+Input Method: Paste
+Entered Value: "OR1"
+Actual Stored Value: "OR1"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178125295-pin-sql-injection.png
+----------------------------------------
+FAIL: XSS Script
+Test Data: "<script>alert(1)</script>"
+Input Method: Paste
+Entered Value: "SCRIP"
+Actual Stored Value: "SCRIP"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178125800-pin-xss-script.png
+----------------------------------------
+FAIL: HTML Tags
+Test Data: "<input>"
+Input Method: Paste
+Entered Value: "INPUT"
+Actual Stored Value: "INPUT"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178126121-pin-html-tags.png
+----------------------------------------
+FAIL: JavaScript
+Test Data: "javascript:alert(1)"
+Input Method: Paste
+Entered Value: "JAVASC"
+Actual Stored Value: "JAVASC"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178126527-pin-javascript.png
+----------------------------------------
+FAIL: URL
+Test Data: "https://12345.com"
+Input Method: Paste
+Entered Value: "HTTPS"
+Actual Stored Value: "HTTPS"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178126855-pin-url.png
+----------------------------------------
+PASS: Email
+Test Data: "12345@test.com"
+Input Method: Paste
+Entered Value: "12345"
+Actual Stored Value: "12345"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: JSON
+Test Data: "{\"zip\":\"12345\"}"
+Input Method: Paste
+Entered Value: "ZIP"
+Actual Stored Value: "ZIP"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178127330-pin-json.png
+----------------------------------------
+FAIL: XML
+Test Data: "<zip>12345</zip>"
+Input Method: Paste
+Entered Value: "ZIP1"
+Actual Stored Value: "ZIP1"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Invalid PIN Code characters remained in the visible input or value attribute without a validation message.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178127686-pin-xml.png
+----------------------------------------
+FAIL: Minimum Length - 1
+Test Data: "1234"
+Input Method: Typing
+Entered Value: "1234"
+Actual Stored Value: "1234"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected validation for less than 5 digits. Entered: "1234".
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178127974-pin-minimum-length-1.png
+----------------------------------------
+PASS: Exactly 5 Digits
+Test Data: "33065"
+Input Method: Paste
+Entered Value: "33065"
+Actual Stored Value: "33065"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Maximum Length + 1
+Test Data: "123456"
+Input Method: Paste
+Entered Value: "12345"
+Actual Stored Value: "12345"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Wrong PIN Code shows Enter Manually box
+Test Data: "00000"
+Input Method: Typing
+Entered Value: "00000"
+Actual Stored Value: "00000"
+Validation Message Status: VISIBLE
+Error Text: We couldn't find this location. Please check the code or enter your details manually.
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------

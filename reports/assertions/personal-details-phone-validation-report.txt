@@ -1,0 +1,331 @@
+PERSONAL DETAILS PHONE VALIDATION REPORT
+========================================
+Execution Started: 2026-08-08T08:34:49.130Z
+PASS: Repeated Zeros
+Input Data: "00000000000"
+Entered Value: "(000) 000-0000"
+Stored Value Attribute: "(000) 000-0000"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Repeated Ones
+Input Data: "11111111111"
+Entered Value: "(111) 111-1111"
+Stored Value Attribute: "(111) 111-1111"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+FAIL: Empty field
+Input Data: ""
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: Expected red phone validation error, but it was not visible.
+----------------------------------------
+PASS: Only spaces
+Input Data: " "
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Leading spaces
+Input Data: " 1234567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Trailing spaces
+Input Data: "1234567890 "
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Spaces between digits
+Input Data: "123 456 7890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Alphabets
+Input Data: "abcdef"
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Mixed letters and digits
+Input Data: "123abc456"
+Entered Value: "(123) 456"
+Stored Value Attribute: "(123) 456"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Uppercase letters
+Input Data: "ABC123"
+Entered Value: "(123)"
+Stored Value Attribute: "(123)"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Lowercase letters
+Input Data: "abc123"
+Entered Value: "(123)"
+Stored Value Attribute: "(123)"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Special characters
+Input Data: "@#$%^&*"
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Digits with special characters
+Input Data: "123@456"
+Entered Value: "(123) 456"
+Stored Value Attribute: "(123) 456"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Plus sign
+Input Data: "+911234567890"
+Entered Value: "(911) 234-5678"
+Stored Value Attribute: "(911) 234-5678"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Minus sign
+Input Data: "123-456-7890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Parentheses
+Input Data: "(123)4567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Slash
+Input Data: "123/4567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Backslash
+Input Data: "123\\4567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Dot
+Input Data: "123.456.7890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Comma
+Input Data: "123,4567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Colon
+Input Data: "123:4567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Semicolon
+Input Data: "123;4567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Underscore
+Input Data: "123_4567890"
+Entered Value: "(123) 456-7890"
+Stored Value Attribute: "(123) 456-7890"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Emoji
+Input Data: "ðŸ˜Š123456"
+Entered Value: "(123) 456"
+Stored Value Attribute: "(123) 456"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Unicode Symbols
+Input Data: "â˜Ž123456"
+Entered Value: "(123) 456"
+Stored Value Attribute: "(123) 456"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Non-English Digits - Arabic
+Input Data: "Ù¡Ù¢Ù£Ù¤Ù¥Ù¦Ù§Ù¨Ù©Ù "
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Non-English Digits - Hindi
+Input Data: "à¥§à¥¨à¥©à¥ªà¥«à¥¬à¥­à¥®à¥¯à¥¦"
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: SQL Injection
+Input Data: "' OR 1=1 --"
+Entered Value: "(11)"
+Stored Value Attribute: "(11)"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: XSS
+Input Data: "<script>alert(1)</script>"
+Entered Value: "1"
+Stored Value Attribute: "1"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: HTML
+Input Data: "<input>"
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: JavaScript
+Input Data: "javascript:alert(1)"
+Entered Value: "1"
+Stored Value Attribute: "1"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: URL
+Input Data: "https://123.com"
+Entered Value: "(123)"
+Stored Value Attribute: "(123)"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Email
+Input Data: "abc@test.com"
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: New Line
+Input Data: "123\n456"
+Entered Value: "(123) 456"
+Stored Value Attribute: "(123) 456"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Tab
+Input Data: "123\t456"
+Entered Value: "(123) 456"
+Stored Value Attribute: "(123) 456"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Zero-width Space
+Input Data: "123​456"
+Entered Value: "(123) 456"
+Stored Value Attribute: "(123) 456"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Only Plus
+Input Data: "+"
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Only Minus
+Input Data: "-"
+Entered Value: ""
+Stored Value Attribute: ""
+Error Visible: false
+Error Text: N/A
+Failure Reason: N/A
+----------------------------------------
+PASS: Decimal Number
+Input Data: "123.45"
+Entered Value: "(123) 45"
+Stored Value Attribute: "(123) 45"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Scientific Notation
+Input Data: "1e10"
+Entered Value: "(110)"
+Stored Value Attribute: "(110)"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------
+PASS: Hexadecimal
+Input Data: "0x12345"
+Entered Value: "(012) 345"
+Stored Value Attribute: "(012) 345"
+Error Visible: true
+Error Text: Invalid number for selected country.
+Failure Reason: N/A
+----------------------------------------

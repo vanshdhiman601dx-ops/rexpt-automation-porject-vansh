@@ -1,0 +1,609 @@
+BUSINESS LISTING EMAIL VALIDATION REPORT
+========================================
+Execution Started: 2026-08-08T08:35:32.003Z
+PASS: Missing @
+Test Data: "johnexample.com"
+Input Method: Typing
+Field Value: "johnexample.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Missing username
+Test Data: "@gmail.com"
+Input Method: Typing
+Field Value: "@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: Missing domain
+Test Data: "john@"
+Input Method: Typing
+Field Value: "john@"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected red email validation message, but invalid email was accepted by the popup.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178137186-email-missing-domain.png
+----------------------------------------
+PASS: Missing top-level domain
+Test Data: "john@gmail"
+Input Method: Typing
+Field Value: "john@gmail"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Missing domain name
+Test Data: "john@.com"
+Input Method: Typing
+Field Value: "john@.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Missing dot after domain
+Test Data: "john@gmailcom"
+Input Method: Typing
+Field Value: "john@gmailcom"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Multiple @ symbols
+Test Data: "john@@gmail.com"
+Input Method: Typing
+Field Value: "john@@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Multiple dots
+Test Data: "john..doe@gmail.com"
+Input Method: Typing
+Field Value: "john..doe@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Starts with dot
+Test Data: ".john@gmail.com"
+Input Method: Typing
+Field Value: ".john@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Ends with dot before @
+Test Data: "john.@gmail.com"
+Input Method: Typing
+Field Value: "john.@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Dot immediately after @
+Test Data: "john@.gmail.com"
+Input Method: Typing
+Field Value: "john@.gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Ends with dot
+Test Data: "john@gmail.com."
+Input Method: Typing
+Field Value: "john@gmail.com."
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Consecutive dots in domain
+Test Data: "john@gmail..com"
+Input Method: Typing
+Field Value: "john@gmail..com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Space inside email
+Test Data: "john doe@gmail.com"
+Input Method: Typing
+Field Value: "john doe@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Tab character
+Test Data: "john\t@gmail.com"
+Input Method: Paste
+Field Value: "john\t@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: New line
+Test Data: "john\n@gmail.com"
+Input Method: Paste
+Field Value: "john @gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: Only username
+Test Data: "john"
+Input Method: Typing
+Field Value: "john"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected red email validation message, but invalid email was accepted by the popup.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178140529-email-only-username.png
+----------------------------------------
+PASS: Only domain
+Test Data: "gmail.com"
+Input Method: Typing
+Field Value: "gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Special characters only
+Test Data: "@#$%^&*"
+Input Method: Typing
+Field Value: "@#$%^&*"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Invalid special characters
+Test Data: "john<>@gmail.com"
+Input Method: Typing
+Field Value: "john<>@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Comma instead of dot
+Test Data: "john@gmail,com"
+Input Method: Typing
+Field Value: "john@gmail,com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Semicolon
+Test Data: "john@gmail;com"
+Input Method: Typing
+Field Value: "john@gmail;com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Colon
+Test Data: "john@gmail:com"
+Input Method: Typing
+Field Value: "john@gmail:com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Slash
+Test Data: "john/gmail.com"
+Input Method: Typing
+Field Value: "john/gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Backslash
+Test Data: "john\\gmail.com"
+Input Method: Typing
+Field Value: "john\\gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Emoji
+Test Data: "ðŸ˜Š@gmail.com"
+Input Method: Paste
+Field Value: "ðŸ˜Š@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Unicode symbols
+Test Data: "â˜…john@gmail.com"
+Input Method: Paste
+Field Value: "â˜…john@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: SQL Injection
+Test Data: "' OR 1=1 --"
+Input Method: Paste
+Field Value: "' OR 1=1 --"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: SQL Drop
+Test Data: "\"; DROP TABLE users;--"
+Input Method: Paste
+Field Value: "\"; DROP TABLE users;--"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: XSS Script
+Test Data: "<script>alert(1)</script>"
+Input Method: Paste
+Field Value: "<script>alert(1)</script>"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: HTML Tags
+Test Data: "<b>john@gmail.com</b>"
+Input Method: Paste
+Field Value: "<b>john@gmail.com</b>"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: JavaScript
+Test Data: "javascript:alert(1)"
+Input Method: Paste
+Field Value: "javascript:alert(1)"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: URL
+Test Data: "https://google.com"
+Input Method: Paste
+Field Value: "https://google.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Phone Number
+Test Data: "9876543210"
+Input Method: Typing
+Field Value: "9876543210"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: JSON
+Test Data: "{\"email\":\"john@gmail.com\"}"
+Input Method: Paste
+Field Value: "{\"email\":\"john@gmail.com\"}"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: XML
+Test Data: "<email>john@gmail.com</email>"
+Input Method: Paste
+Field Value: "<email>john@gmail.com</email>"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Zero-width space
+Test Data: "john​@gmail.com"
+Input Method: Paste
+Field Value: "john​@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Invalid TLD
+Test Data: "john@gmail.c"
+Input Method: Typing
+Field Value: "john@gmail.c"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Numeric TLD
+Test Data: "john@gmail.123"
+Input Method: Typing
+Field Value: "john@gmail.123"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: Username length exceeds limit
+Test Data: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Input Method: Paste
+Field Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected red email validation message, but invalid email was accepted by the popup.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178145868-email-username-length-exceeds-limit.png
+----------------------------------------
+FAIL: Domain length exceeds limit
+Test Data: "john@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Input Method: Paste
+Field Value: "john@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected red email validation message, but invalid email was accepted by the popup.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178146294-email-domain-length-exceeds-limit.png
+----------------------------------------
+FAIL: Email exceeds maximum allowed length
+Test Data: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Input Method: Paste
+Field Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: FAIL
+Pass / Fail: FAIL
+Failure Reason: Expected red email validation message, but invalid email was accepted by the popup.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-listing\1786178146656-email-email-exceeds-maximum-allowed-length.png
+----------------------------------------
+PASS: Minimum valid email length
+Test Data: "a@b.co"
+Input Method: Typing
+Field Value: "a@b.co"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Maximum valid email length
+Test Data: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Input Method: Paste
+Field Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste text without @
+Test Data: "johnexample.com"
+Input Method: Paste
+Field Value: "johnexample.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste URL
+Test Data: "https://google.com"
+Input Method: Paste
+Field Value: "https://google.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste SQL Injection
+Test Data: "' OR 1=1 --"
+Input Method: Paste
+Field Value: "' OR 1=1 --"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste HTML
+Test Data: "<b>john@gmail.com</b>"
+Input Method: Paste
+Field Value: "<b>john@gmail.com</b>"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste JavaScript
+Test Data: "javascript:alert(1)"
+Input Method: Paste
+Field Value: "javascript:alert(1)"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste emoji
+Test Data: "ðŸ˜Š@gmail.com"
+Input Method: Paste
+Field Value: "ðŸ˜Š@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste email with leading and trailing spaces
+Test Data: " john@gmail.com "
+Input Method: Paste
+Field Value: "john@gmail.com"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste multiple email addresses
+Test Data: "john@gmail.com,jane@gmail.com"
+Input Method: Paste
+Field Value: "john@gmail.com,jane@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Paste email containing hidden zero-width characters
+Test Data: "john​@gmail.com"
+Input Method: Paste
+Field Value: "john​@gmail.com"
+Validation Message Status: VISIBLE
+Error Text: Please enter a valid email address
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Uppercase email accepted
+Test Data: "JOHN.DOE@GMAIL.COM"
+Input Method: Typing
+Field Value: "JOHN.DOE@GMAIL.COM"
+Validation Message Status: NOT VISIBLE
+Error Text: N/A
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Business Listing positive email persistence verification
+Positive Email Entered: vanshdhiman601.dx@gmail.com
+Popup Saved Successfully: N/A - Edit icon flow used before Looks Good save
+Business Listing Screen Loaded: N/A - Flow moves directly from popup Edit to Business Details
+Edit Popup Opened: true
+Stored Email Value: "vanshdhiman601.dx@gmail.com"
+Expected Email Value: "vanshdhiman601.dx@gmail.com"
+Assertion Status: PASS
+Pass / Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------

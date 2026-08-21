@@ -1,0 +1,62 @@
+{
+  "completed_pages_list": [
+    {
+      "key": "personal_details",
+      "screen": "Personal Details",
+      "route": "/details"
+    },
+    {
+      "key": "business_category",
+      "screen": "Business Category",
+      "route": "/business-step"
+    }
+  ],
+  "previous": {
+    "key": "business_category",
+    "screen": "Business Category",
+    "route": "/business-step"
+  },
+  "last_opened": {
+    "key": "business_details",
+    "screen": "Business Details",
+    "route": "/business-step"
+  },
+  "updatedAt": "2026-08-08T08:35:07.329Z",
+  "expectedResumeScreen": {
+    "key": "business_details",
+    "screen": "Business Details",
+    "route": "/business-step"
+  },
+  "previousScreen": {
+    "key": "business_category",
+    "screen": "Business Category",
+    "route": "/business-step"
+  },
+  "businessStepScreens": [
+    {
+      "key": "business_category",
+      "screen": "Business Category",
+      "route": "/business-step"
+    },
+    {
+      "key": "business_details",
+      "screen": "Business Details",
+      "route": "/business-step"
+    },
+    {
+      "key": "business_listing",
+      "screen": "Business Listing",
+      "route": "/business-step"
+    },
+    {
+      "key": "update_your_business_details",
+      "screen": "Update Your Business Details",
+      "route": "/business-step"
+    },
+    {
+      "key": "your_ai_sound",
+      "screen": "Your AI Sound",
+      "route": "/business-step"
+    }
+  ]
+}

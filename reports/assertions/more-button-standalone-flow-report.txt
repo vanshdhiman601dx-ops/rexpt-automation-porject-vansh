@@ -1,0 +1,93 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-14T03:51:01.964Z
+PASS
+------
+Assertion Name: More Button login email is configured
+Severity: BLOCKER
+Timestamp: 2026-08-14T03:51:01.979Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: More Button standalone login screen opens
+Severity: BLOCKER
+Timestamp: 2026-08-14T03:51:06.662Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: More Button OTP screen opens after Send One Time Password
+Severity: BLOCKER
+Timestamp: 2026-08-14T03:51:25.584Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: More Button fixed OTP authenticates and Fast Agent Details loads
+Severity: BLOCKER
+Timestamp: 2026-08-14T03:52:56.198Z
+Failure Reason: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/\/fast-agent-details?/[39m
+Received string:  [31m"https://rexptin.vercel.app/signup?email=vanshdhiman601.dx%2B01%40gmail.com"[39m
+Timeout: 90000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 90000ms[22m
+[2m    178 × unexpected value "https://rexptin.vercel.app/signup?email=vanshdhiman601.dx%2B01%40gmail.com"[22m
+
+Exception: Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/\/fast-agent-details?/[39m
+Received string:  [31m"https://rexptin.vercel.app/signup?email=vanshdhiman601.dx%2B01%40gmail.com"[39m
+Timeout: 90000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 90000ms[22m
+[2m    178 × unexpected value "https://rexptin.vercel.app/signup?email=vanshdhiman601.dx%2B01%40gmail.com"[22m
+
+    at MoreButtonLoginPage.verifyAuthenticatedFastAgentDetails (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\more-button-flow\pages\more-button-login-page.js:271:29)
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\more-button-flow\tests\more-button-flow.spec.js:67:25)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\more-button-flow\tests\more-button-flow.spec.js:62:5
+
+IMPACT
+------
+- More Button menu cannot be reached without authenticated Fast Agent Details.
+
+RECOVERY ACTION
+---------------
+Verify fixed OTP support and auth token storage for the More Button login user.
+
+----------------------------------------

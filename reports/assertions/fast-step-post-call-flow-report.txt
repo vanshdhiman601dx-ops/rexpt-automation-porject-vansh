@@ -1,0 +1,9 @@
+FAST STEP POST CALL FLOW REPORT
+===============================
+Execution Started: 2026-08-07T09:00:03.527Z
+2026-08-07T09:00:03.658Z Agent renamed to Auto agent
+2026-08-07T09:00:03.667Z Microphone permission granted for https://rexptin.vercel.app
+2026-08-07T09:00:03.677Z Agent ready screen was already displayed before Make Web Call step
+2026-08-07T09:00:03.710Z Auto agent is ready screen displayed
+2026-08-07T09:01:02.280Z Clicked Go Live
+2026-08-07T09:01:02.472Z Redirected to recommended-plan page

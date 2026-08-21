@@ -1,0 +1,593 @@
+UPDATE YOUR BUSINESS DETAILS BUSINESS EMAIL VALIDATION REPORT
+============================================================
+Execution Started: 2026-08-08T08:37:42.783Z
+Scenario: Missing @
+Input Value: "business.com"
+Input Method: Typing
+Entered Value: "business.com"
+Stored Value Attribute: "business.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 12
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing username
+Input Value: "@company.com"
+Input Method: Typing
+Entered Value: "@company.com"
+Stored Value Attribute: "@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 12
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing domain
+Input Value: "business@"
+Input Method: Typing
+Entered Value: "business@"
+Stored Value Attribute: "business@"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 9
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing TLD
+Input Value: "business@company"
+Input Method: Typing
+Entered Value: "business@company"
+Stored Value Attribute: "business@company"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 16
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing domain name
+Input Value: "business@.com"
+Input Method: Typing
+Entered Value: "business@.com"
+Stored Value Attribute: "business@.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 13
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Missing dot in domain
+Input Value: "business@companycom"
+Input Method: Typing
+Entered Value: "business@companycom"
+Stored Value Attribute: "business@companycom"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 19
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Multiple @ symbols
+Input Value: "business@@company.com"
+Input Method: Typing
+Entered Value: "business@@company.com"
+Stored Value Attribute: "business@@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Consecutive dots
+Input Value: "business..mail@company.com"
+Input Method: Typing
+Entered Value: "business..mail@company.com"
+Stored Value Attribute: "business..mail@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 26
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Dot at beginning
+Input Value: ".business@company.com"
+Input Method: Typing
+Entered Value: ".business@company.com"
+Stored Value Attribute: ".business@company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Dot before @
+Input Value: "business.@company.com"
+Input Method: Typing
+Entered Value: "business.@company.com"
+Stored Value Attribute: "business.@company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Dot immediately after @
+Input Value: "business@.company.com"
+Input Method: Typing
+Entered Value: "business@.company.com"
+Stored Value Attribute: "business@.company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Ends with dot
+Input Value: "business@company.com."
+Input Method: Typing
+Entered Value: "business@company.com."
+Stored Value Attribute: "business@company.com."
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Consecutive dots in domain
+Input Value: "business@company..com"
+Input Method: Typing
+Entered Value: "business@company..com"
+Stored Value Attribute: "business@company..com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Space before email
+Input Value: " business@company.com"
+Input Method: Typing
+Entered Value: "business@company.com"
+Stored Value Attribute: "business@company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Space after email
+Input Value: "business@company.com "
+Input Method: Typing
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: true | Recovered From AI Sounds: true | Stored Value Length: 0
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Space inside email
+Input Value: "business @company.com"
+Input Method: Typing
+Entered Value: "business @company.com"
+Stored Value Attribute: "business @company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Tab character
+Input Value: "business\t@company.com"
+Input Method: Paste
+Entered Value: "business\t@company.com"
+Stored Value Attribute: "business\t@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: New line
+Input Value: "business\n@company.com"
+Input Method: Paste
+Entered Value: "business @company.com"
+Stored Value Attribute: "business @company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Only username
+Input Value: "business"
+Input Method: Typing
+Entered Value: "business"
+Stored Value Attribute: "business"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 8
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Only domain
+Input Value: "company.com"
+Input Method: Typing
+Entered Value: "company.com"
+Stored Value Attribute: "company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 11
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Special characters only
+Input Value: "@#$%^&*"
+Input Method: Typing
+Entered Value: "@#$%^&*"
+Stored Value Attribute: "@#$%^&*"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 7
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Invalid special characters
+Input Value: "business<>@company.com"
+Input Method: Typing
+Entered Value: "business<>@company.com"
+Stored Value Attribute: "business<>@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 22
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Comma instead of dot
+Input Value: "business@company,com"
+Input Method: Typing
+Entered Value: "business@company,com"
+Stored Value Attribute: "business@company,com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Semicolon
+Input Value: "business@company;com"
+Input Method: Typing
+Entered Value: "business@company;com"
+Stored Value Attribute: "business@company;com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Colon
+Input Value: "business@company:com"
+Input Method: Typing
+Entered Value: "business@company:com"
+Stored Value Attribute: "business@company:com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Slash
+Input Value: "business/company.com"
+Input Method: Typing
+Entered Value: "business/company.com"
+Stored Value Attribute: "business/company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Backslash
+Input Value: "business\\company.com"
+Input Method: Typing
+Entered Value: "business\\company.com"
+Stored Value Attribute: "business\\company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Emoji
+Input Value: "ðŸ˜Š@company.com"
+Input Method: Paste
+Entered Value: "ðŸ˜Š@company.com"
+Stored Value Attribute: "ðŸ˜Š@company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 16
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Unicode symbols
+Input Value: "â˜…business@company.com"
+Input Method: Paste
+Entered Value: "â˜…business@company.com"
+Stored Value Attribute: "â˜…business@company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 23
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: SQL Injection
+Input Value: "' OR 1=1 --"
+Input Method: Paste
+Entered Value: "' OR 1=1 --"
+Stored Value Attribute: "' OR 1=1 --"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 11
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: SQL Drop
+Input Value: "; DROP TABLE users;--"
+Input Method: Paste
+Entered Value: "; DROP TABLE users;--"
+Stored Value Attribute: "; DROP TABLE users;--"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: XSS Script
+Input Value: "<script>alert(1)</script>"
+Input Method: Paste
+Entered Value: "<script>alert(1)</script>"
+Stored Value Attribute: "<script>alert(1)</script>"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 25
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: HTML Tags
+Input Value: "<b>business@company.com</b>"
+Input Method: Paste
+Entered Value: "<b>business@company.com</b>"
+Stored Value Attribute: "<b>business@company.com</b>"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 27
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: JavaScript
+Input Value: "javascript:alert(1)"
+Input Method: Paste
+Entered Value: "javascript:alert(1)"
+Stored Value Attribute: "javascript:alert(1)"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 19
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: URL instead of email
+Input Value: "https://company.com"
+Input Method: Paste
+Entered Value: "https://company.com"
+Stored Value Attribute: "https://company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 19
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Phone number
+Input Value: "9876543210"
+Input Method: Typing
+Entered Value: "9876543210"
+Stored Value Attribute: "9876543210"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 10
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: JSON
+Input Value: "{\"email\":\"business@company.com\"}"
+Input Method: Paste
+Entered Value: "{\"email\":\"business@company.com\"}"
+Stored Value Attribute: "{\"email\":\"business@company.com\"}"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 32
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: XML
+Input Value: "<email>business@company.com</email>"
+Input Method: Paste
+Entered Value: "<email>business@company.com</email>"
+Stored Value Attribute: "<email>business@company.com</email>"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 35
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Zero-width space
+Input Value: "business​@company.com"
+Input Method: Paste
+Entered Value: "business​@company.com"
+Stored Value Attribute: "business​@company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Extremely long email
+Input Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@company.com"
+Input Method: Paste
+Entered Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+Stored Value Attribute: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 100
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Invalid TLD
+Input Value: "business@company.c"
+Input Method: Typing
+Entered Value: "business@company.c"
+Stored Value Attribute: "business@company.c"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 18
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Numeric TLD
+Input Value: "business@company.123"
+Input Method: Typing
+Entered Value: "business@company.123"
+Stored Value Attribute: "business@company.123"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Username below minimum length
+Input Value: "a@company.com"
+Input Method: Typing
+Entered Value: "a@company.com"
+Stored Value Attribute: "a@company.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 13
+Error Text: Business Email
+Assertion Status: FAIL
+Reason: Expected valid Business Email to be accepted without validation signal or redirect.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178307664-update-email-username-below-minimum-length.png
+Scenario: Email exceeding maximum allowed length
+Input Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Input Method: Paste
+Entered Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Stored Value Attribute: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 41
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Domain exceeding maximum allowed length
+Input Value: "business@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+Input Method: Paste
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: true | Recovered From AI Sounds: true | Stored Value Length: 0
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Exactly maximum valid email length
+Input Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Input Method: Paste
+Entered Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Stored Value Attribute: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Validation Signal: Continue Enabled Before Click: true | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 40
+Error Text: Business Email
+Assertion Status: FAIL
+Reason: Expected valid Business Email to be accepted without validation signal or redirect.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178330313-update-email-exactly-maximum-valid-email-length.png
+Scenario: One character more than maximum length
+Input Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Input Method: Paste
+Entered Value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Stored Value Attribute: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 41
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste only spaces
+Input Value: "     "
+Input Method: Paste
+Entered Value: ""
+Stored Value Attribute: ""
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 0
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste plain text
+Input Value: "business"
+Input Method: Paste
+Entered Value: "business"
+Stored Value Attribute: "business"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 8
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste URL
+Input Value: "https://company.com"
+Input Method: Paste
+Entered Value: "https://company.com"
+Stored Value Attribute: "https://company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 19
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste phone number
+Input Value: "9876543210"
+Input Method: Paste
+Entered Value: "9876543210"
+Stored Value Attribute: "9876543210"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 10
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste SQL injection string
+Input Value: "' OR 1=1 --"
+Input Method: Paste
+Entered Value: "' OR 1=1 --"
+Stored Value Attribute: "' OR 1=1 --"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 11
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste XSS payload
+Input Value: "<script>alert(1)</script>"
+Input Method: Paste
+Entered Value: "<script>alert(1)</script>"
+Stored Value Attribute: "<script>alert(1)</script>"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 25
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste HTML
+Input Value: "<b>business@company.com</b>"
+Input Method: Paste
+Entered Value: "<b>business@company.com</b>"
+Stored Value Attribute: "<b>business@company.com</b>"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 27
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste emoji
+Input Value: "ðŸ˜Š@company.com"
+Input Method: Paste
+Entered Value: "ðŸ˜Š@company.com"
+Stored Value Attribute: "ðŸ˜Š@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 16
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste email with leading/trailing spaces
+Input Value: " business@company.com "
+Input Method: Paste
+Entered Value: "business@company.com"
+Stored Value Attribute: "business@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 20
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste multiple email addresses
+Input Value: "a@company.com, b@company.com"
+Input Method: Paste
+Entered Value: "a@company.com, b@company.com"
+Stored Value Attribute: "a@company.com, b@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 28
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Paste email with hidden zero-width characters
+Input Value: "business​@company.com"
+Input Method: Paste
+Entered Value: "business​@company.com"
+Stored Value Attribute: "business​@company.com"
+Validation Signal: Continue Enabled Before Click: false | Inline Email Error Visible: true | Popup Visible: false | Redirected To AI Sounds: false | Recovered From AI Sounds: false | Stored Value Length: 21
+Error Text: Business Email
+Assertion Status: PASS
+Reason: N/A
+Screenshot: N/A
+Scenario: Positive Business Email accepted
+Input Value: "vanshdhiman601.dx@gmail.com"
+Input Method: Typing
+Entered Value: "vanshdhiman601.dx@gmail.com"
+Stored Value Attribute: "vanshdhiman601.dx@gmail.com"
+Validation Signal: Inline Email Error Visible: true
+Error Text: Business Email
+Assertion Status: FAIL
+Reason: Expected positive Business Email to remain exactly in the input field.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178332931-update-email-positive.png

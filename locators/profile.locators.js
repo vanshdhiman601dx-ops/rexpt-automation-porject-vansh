@@ -43,4 +43,25 @@ export const profileLocators = {
     confirmDeleteButton: 'button:has-text("Delete"), button:has-text("Confirm")',
     cancelDeleteButton: 'button:has-text("Cancel")',
   },
+
+  mySubscriptions: {
+    section: '[class*="cardWrapper"]:has-text("My Subscriptions")',
+    heading: 'text="My Subscriptions"',
+    noSubscriptionsMessage: 'text="No subscriptions found."',
+    subscriptionCard: '[class*="MySubscriptionInfo"]',
+    agentCodeLabel: 'text="Agent Code:"',
+    agentCodeValue: '[class*="idDiv"] [class*="valueBold"]',
+    activeStatus: '[class*="activeStatus"]:has-text("Active")',
+    inactiveStatus: '[class*="deactivatedStatus"]:has-text("Inactive")',
+    agentNameRow: '[class*="row2"]:has-text("Agent Name")',
+    agentNameValue: '[class*="row2"]:has-text("Agent Name") [class*="value"]',
+    businessNameRow: '[class*="row2"]:has-text("Business Name")',
+    businessNameValue: '[class*="row2"]:has-text("Business Name") [class*="value"]',
+    planActivatedRow: '[class*="row2"]:has-text("Plan Activated")',
+    planActivatedValue: '[class*="row2"]:has-text("Plan Activated") [class*="plan"]',
+    freePlanBadge: '[class*="row2"]:has-text("Plan Activated") [class*="plan"]:has-text("Free")',
+    minutesRemainingRow: '[class*="row2"]:has-text("Minutes Remaining")',
+    minutesRemainingValue:
+      '[class*="row2"]:has-text("Minutes Remaining") [class*="value"]',
+  },
 };

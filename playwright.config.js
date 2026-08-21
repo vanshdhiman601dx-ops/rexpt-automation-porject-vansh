@@ -6,8 +6,8 @@ const isLocalBaseURL = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/?$/.test(en
 const frontendStartCommand = process.platform === 'win32' ? 'npm.cmd start' : 'npm start';
 
 export default defineConfig({
-  testDir: './tests',
-  testMatch: /.*tests[\\/]authentication[\\/]signup[\\/]signup\.placeholder\.spec\.js/,
+  testDir: './flows/Onboardin-flow-A/tests',
+  testMatch: /.*authentication[\\/]signup[\\/]signup\.placeholder\.spec\.js/,
   timeout: timeouts.test,
   expect: {
     timeout: timeouts.expect,

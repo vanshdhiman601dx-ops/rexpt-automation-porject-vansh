@@ -2,7 +2,7 @@
   "email": "vanshdhiman601.dx@gmail.com",
   "expectedTitle": "rexpt - The AI Receptionist Service",
   "finalUrl": "https://rexptin.vercel.app/fast-agent-detail",
-  "validOtp": "123456",
+  "validOtp": "903467",
   "invalidOtp": "999999",
   "messages": {
     "incompleteOtp": "Please enter a valid 6-digit OTP.",

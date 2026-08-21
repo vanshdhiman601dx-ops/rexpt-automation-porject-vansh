@@ -1,0 +1,238 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:35:16.446Z
+PASS
+------
+Assertion Name: Business Details initial screen verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:16.540Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details Name validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:16.766Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details Name validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:16.924Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details Name validation - Extremely Long Business Name
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:17.226Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details Name validation - XML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:17.634Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<business>ABC</business>"
+- Field Value: "businessABCbusiness"
+- Stored Value Attribute: "businessABCbusiness"
+- Validation Result: Invalid input accepted without red validation error
+- Error Visible: false
+- Error Text: N/A
+- Character Count: 19
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178117436-xml.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details Name validation - JSON
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:17.984Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "{\"name\":\"ABC\"}"
+- Field Value: "nameABC"
+- Stored Value Attribute: "nameABC"
+- Validation Result: Invalid input accepted without red validation error
+- Error Visible: false
+- Error Text: N/A
+- Character Count: 7
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178117775-json.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details Name validation - XSS Script
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:18.283Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<script>alert(1)</script>"
+- Field Value: "scriptalert(1)script"
+- Stored Value Attribute: "scriptalert(1)script"
+- Validation Result: Invalid input accepted without red validation error
+- Error Visible: false
+- Error Text: N/A
+- Character Count: 20
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178118110-xss-script.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details Name validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:18.639Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "' OR 1=1 --"
+- Field Value: "' OR 11 --"
+- Stored Value Attribute: "' OR 11 --"
+- Validation Result: Invalid input accepted without red validation error
+- Error Visible: false
+- Error Text: N/A
+- Character Count: 10
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178118438-sql-injection.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next scenario.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Details Name validation - SQL Drop
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:19.013Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "'; DROP TABLE users;--"
+- Field Value: "' DROP TABLE users--"
+- Stored Value Attribute: "' DROP TABLE users--"
+- Validation Result: Invalid input accepted without red validation error
+- Error Visible: false
+- Error Text: N/A
+- Character Count: 20
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178118806-sql-drop.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Name accepts alphanumeric values
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:19.104Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

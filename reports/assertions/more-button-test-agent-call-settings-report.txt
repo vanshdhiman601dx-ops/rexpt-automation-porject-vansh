@@ -1,0 +1,79 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-13T12:05:28.952Z
+PASS
+------
+Assertion Name: Launch application and open Login screen
+Severity: CRITICAL
+Timestamp: 2026-08-13T12:05:38.722Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: More Button login email entry
+Severity: CRITICAL
+Timestamp: 2026-08-13T12:05:38.826Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: More Button login OTP request
+Severity: CRITICAL
+Timestamp: 2026-08-13T12:06:41.083Z
+Failure Reason: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('text=Enter the code sent to your email')
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 60000ms[22m
+[2m  - waiting for locator('text=Enter the code sent to your email')[22m
+
+Exception: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('text=Enter the code sent to your email')
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 60000ms[22m
+[2m  - waiting for locator('text=Enter the code sent to your email')[22m
+
+    at LoginPage.verifyOtpScreen (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\pages\authentication\LoginPage.js:243:66)
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\temp\temp.spec.js:57:23)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at loginWithOtpForMoreButtonFlow (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\temp\temp.spec.js:53:3)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\temp\temp.spec.js:93:5
+
+IMPACT
+------
+- OTP screen did not load; authentication cannot continue.
+
+RECOVERY ACTION
+---------------
+Stop and inspect Send One Time Password / OTP screen behavior.
+
+----------------------------------------

@@ -1,0 +1,120 @@
+BUSINESS DETAILS NAME VALIDATION REPORT
+=======================================
+Execution Started: 2026-08-08T08:35:16.448Z
+PASS: Empty field
+Test Data: ""
+Field Value: ""
+Stored Value Attribute: ""
+Validation Result: Red validation error visible
+Error Visibility: true
+Error Text: Business name is required
+Character Count: 0
+Assertion Status: PASS
+Pass/Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Only spaces
+Test Data: " "
+Field Value: " "
+Stored Value Attribute: " "
+Validation Result: Red validation error visible
+Error Visibility: true
+Error Text: Business name is required
+Character Count: 1
+Assertion Status: PASS
+Pass/Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+PASS: Extremely Long Business Name
+Test Data: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Field Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Stored Value Attribute: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+Validation Result: Input capped to 50 characters
+Error Visibility: false
+Error Text: N/A
+Character Count: 50
+Assertion Status: PASS
+Pass/Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------
+FAIL: XML
+Test Data: "<business>ABC</business>"
+Field Value: "businessABCbusiness"
+Stored Value Attribute: "businessABCbusiness"
+Validation Result: Invalid input accepted without red validation error
+Error Visibility: false
+Error Text: N/A
+Character Count: 19
+Assertion Status: FAIL
+Pass/Fail: FAIL
+Failure Reason: Expected red Business Name validation error, but it was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178117436-xml.png
+----------------------------------------
+FAIL: JSON
+Test Data: "{\"name\":\"ABC\"}"
+Field Value: "nameABC"
+Stored Value Attribute: "nameABC"
+Validation Result: Invalid input accepted without red validation error
+Error Visibility: false
+Error Text: N/A
+Character Count: 7
+Assertion Status: FAIL
+Pass/Fail: FAIL
+Failure Reason: Expected red Business Name validation error, but it was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178117775-json.png
+----------------------------------------
+FAIL: XSS Script
+Test Data: "<script>alert(1)</script>"
+Field Value: "scriptalert(1)script"
+Stored Value Attribute: "scriptalert(1)script"
+Validation Result: Invalid input accepted without red validation error
+Error Visibility: false
+Error Text: N/A
+Character Count: 20
+Assertion Status: FAIL
+Pass/Fail: FAIL
+Failure Reason: Expected red Business Name validation error, but it was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178118110-xss-script.png
+----------------------------------------
+FAIL: SQL Injection
+Test Data: "' OR 1=1 --"
+Field Value: "' OR 11 --"
+Stored Value Attribute: "' OR 11 --"
+Validation Result: Invalid input accepted without red validation error
+Error Visibility: false
+Error Text: N/A
+Character Count: 10
+Assertion Status: FAIL
+Pass/Fail: FAIL
+Failure Reason: Expected red Business Name validation error, but it was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178118438-sql-injection.png
+----------------------------------------
+FAIL: SQL Drop
+Test Data: "'; DROP TABLE users;--"
+Field Value: "' DROP TABLE users--"
+Stored Value Attribute: "' DROP TABLE users--"
+Validation Result: Invalid input accepted without red validation error
+Error Visibility: false
+Error Text: N/A
+Character Count: 20
+Assertion Status: FAIL
+Pass/Fail: FAIL
+Failure Reason: Expected red Business Name validation error, but it was not visible.
+Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178118806-sql-drop.png
+----------------------------------------
+PASS: Business Name accepts alphanumeric values
+Test Data: "DesignersX123"
+Field Value: "DesignersX123"
+Stored Value Attribute: "DesignersX123"
+Validation Result: Alphanumeric Business Name accepted
+Error Visibility: false
+Error Text: N/A
+Character Count: 13
+Assertion Status: PASS
+Pass/Fail: PASS
+Failure Reason: N/A
+Screenshot: N/A
+----------------------------------------

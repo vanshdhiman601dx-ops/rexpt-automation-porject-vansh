@@ -1,0 +1,286 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:36:48.354Z
+PASS
+------
+Assertion Name: Update Business Details Business Name validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:48.580Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Business Name validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:48.740Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Business Name validation - Extremely long business name
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:49.090Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+- Input Method: Paste
+- Entered Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+- Stored Value Attribute: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+- Continue Enabled Before Click: true
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Entered Length: 50
+- Stored Value Attribute Length: 50
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178208914-update-business-name-extremely-long-business-name.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next Business Name case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Details simple prefill has Business Name and PIN Code
+Severity: BUG
+Timestamp: 2026-08-08T08:36:52.635Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Business Name validation - XML payload
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:11.245Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<business><name>DSX</name></business>"
+- Input Method: Paste
+- Entered Value: "designersx"
+- Stored Value Attribute: "designersx"
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: true
+- Recovered From AI Sounds: true
+- Entered Length: 10
+- Stored Value Attribute Length: 10
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178231046-update-business-name-xml-payload.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next Business Name case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Business Name validation - JSON payload
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:11.462Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Business Name validation - XSS script
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:12.152Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "<script>alert(1)</script>"
+- Input Method: Paste
+- Entered Value: "<script>alert()</script>"
+- Stored Value Attribute: "<script>alert()</script>"
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Entered Length: 24
+- Stored Value Attribute Length: 24
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178231948-update-business-name-xss-script.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next Business Name case.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Business Name validation - SQL injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:12.471Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "' OR 1=1 --"
+- Input Method: Paste
+- Entered Value: "' OR = --"
+- Stored Value Attribute: "' OR = --"
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Entered Length: 9
+- Stored Value Attribute Length: 9
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178232275-update-business-name-sql-injection.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next Business Name case.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Business Name validation - SQL drop statement
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:12.774Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "'; DROP TABLE agents;--"
+- Input Method: Paste
+- Entered Value: "'; DROP TABLE agents;--"
+- Stored Value Attribute: "'; DROP TABLE agents;--"
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Entered Length: 23
+- Stored Value Attribute Length: 23
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178232588-update-business-name-sql-drop-statement.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next Business Name case.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Business Name validation - Maximum 75 characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:13.136Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+- Input Method: Paste
+- Entered Value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+- Stored Value Attribute: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+- Continue Enabled Before Click: false
+- Popup Visible: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Entered Length: 50
+- Stored Value Attribute Length: 50
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178232911-update-business-name-maximum-75-characters.png
+
+RECOVERY ACTION
+---------------
+Record the Business Name validation failure and continue with the next Business Name case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details positive Business Name accepted
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:37:13.270Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

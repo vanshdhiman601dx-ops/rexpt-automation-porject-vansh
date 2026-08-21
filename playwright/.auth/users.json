@@ -1,4 +1,268 @@
 {
-  "cookies": [],
-  "origins": []
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09AKhCRwjy8BnSzJ9KR36pj-bdgLXa9TUKurT3WSZhh8225GEXZ19Df2NHrbXYPWZpuAEf_d2Fmsp1UwZI-yzxD-8",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1802777875.054648,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CLID",
+      "value": "dd3e94f4c95c4d01ab683a4f00e56d51.20260820.20270820",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1818761869.09155,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.2017918535.1787225869",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1795001869,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1846501021.1787225869",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1821785869.365953,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clck",
+      "value": "wcgks8%5E2%5Eg8r%5E0%5E2423",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1818761870,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUlZuEdY0TN2MQpjGHJ9J8lbU418G1FVu3QBA3AFNayZV8cShDKwg_5SQT8F",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1821785870.73419,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "0C7FAF7DF8B86F1E244CB8C6F9CB6E88",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1820921873.947293,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1787830673.947386,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "0C7FAF7DF8B86F1E244CB8C6F9CB6E88",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1820921873.947431,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "0C7FAF7DF8B86F1E244CB8C6F9CB6E88",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1820921874.103264,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1787830674.103337,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1787226474.103373,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "m",
+      "value": "28ebe01e-701d-48f5-9efc-885a9591cac6296563",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1821785874.931597,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "75212a8c-d22c-4769-8748-7401ad03b17564cc43",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1818761874,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "6df4a641-5a6e-4f02-a789-b25835a49f37d2164b",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1787227674,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_clsk",
+      "value": "r9ggwn%5E1787225878243%5E2%5E1%5Eb.clarity.ms%2Fcollect",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1787312278,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_EEMT3NPXGV",
+      "value": "GS2.1.s1787225869$o1$g1$t1787225880$j49$l0$h0",
+      "domain": ".rexptin.vercel.app",
+      "path": "/",
+      "expires": 1821785880.046566,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://rexptin.vercel.app",
+      "localStorage": [
+        {
+          "name": "ga4_sent_anon_sign_up_start",
+          "value": "1"
+        },
+        {
+          "name": "ga4_sent_anon_visit_login_view",
+          "value": "1"
+        },
+        {
+          "name": "onboardComplete",
+          "value": "true"
+        },
+        {
+          "name": "signInMethod",
+          "value": "email"
+        },
+        {
+          "name": "userEmail",
+          "value": "vanshdhiman601.dx+01@gmail.com"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"chLltoQLm-HhqzwSKALKWEmZxvt9DEyBGA\",\"lastJoinedTimeMs\":1787225869104},\"expires\":1787226169104},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1787225869110},\"expires\":1795001869110}}"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09AKhCRwjVRVJpOpu2midM0F91yY21AFyADEP1f-pUOfqdGlp4i3IU3Gn5KJ57f5PYM2vg_hrGti1c34PYuYjOYCJIBhXq5xeKWhiCDPi7dCanNvcvI8_KFqVlhb3HjiqO"
+        },
+        {
+          "name": "ga4_sent_anon_send_otp_click",
+          "value": "1"
+        },
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlJYVlNEMTE3ODcyMTkzMDciLCJlbWFpbCI6InZhbnNoZGhpbWFuNjAxLmR4KzAxQGdtYWlsLmNvbSIsIm5hbWUiOiIiLCJjdXN0b21lcklkIjoiY3VzX1VMcHhNMWU4bDV5eUdRIiwiaGFzRGlhbGVyQWNjZXNzIjpmYWxzZSwiZXhwZXJpbWVudFZhcmlhbnQiOiJBIiwiaWF0IjoxNzg3MjI1ODc5LCJleHAiOjE3ODk4MTc4Nzl9.bkpWji4DPadYCFbdSK5FZxdADVXtfn9FhRGrk4SoGpU"
+        },
+        {
+          "name": "ga4_sent_anon_otp_continue_click",
+          "value": "1"
+        },
+        {
+          "name": "ga4_sent_RXVSD11787219307_visit_agent_dashboard_view",
+          "value": "1"
+        },
+        {
+          "name": "ga4_sent_anon_visit_signup_view",
+          "value": "1"
+        },
+        {
+          "name": "ga4_auth_recorded",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlJYVlNEMTE3ODcyMTkzMDciLCJlbWFpbCI6InZhbnNoZGhpbWFuNjAxLmR4KzAxQGdtYWlsLmNvbSIsIm5hbWUiOiIiLCJjdXN0b21lcklkIjoiY3VzX1VMcHhNMWU4bDV5eUdRIiwiaGFzRGlhbGVyQWNjZXNzIjpmYWxzZSwiZXhwZXJpbWVudFZhcmlhbnQiOiJBIiwiaWF0IjoxNzg3MjI1ODc5LCJleHAiOjE3ODk4MTc4Nzl9.bkpWji4DPadYCFbdSK5FZxdADVXtfn9FhRGrk4SoGpU"
+        },
+        {
+          "name": "showreferralfloating",
+          "value": "true"
+        },
+        {
+          "name": "otpResendEndTime",
+          "value": "1787226177661"
+        },
+        {
+          "name": "user-storage",
+          "value": "{\"state\":{\"user\":{\"name\":\"\",\"profile\":\"https://rex-bk.truet.netundefined\",\"subscriptionDetails\":{}}},\"version\":0}"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "bjlpdTFhZ3d2MGFy"
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAL9zE-hgUYsPqOs3dIrtI4TKk0thD6_oMbRTcZGDxUhZHNaMlFE1YrUcDYrko26mynna26Y"
+        }
+      ]
+    }
+  ]
 }

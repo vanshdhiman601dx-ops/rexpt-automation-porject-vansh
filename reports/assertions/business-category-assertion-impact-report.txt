@@ -1,0 +1,676 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:34:54.121Z
+PASS
+------
+Assertion Name: Business Category initial screen verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:34:54.532Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Store onboarding session for Business Category
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:34:55.231Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category resume dashboard URL verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:01.695Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Draft Agent card verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:01.786Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Draft Agent resume state matches completed pages, previous, and last_opened
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:01.811Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Continue Setup resumes last_opened URL
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:02.094Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Continue Setup resumes last_opened screen - Business Category
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:02.330Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - Below minimum length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:02.482Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - Special characters only
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:02.615Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:02.975Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - Only digits
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.130Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - Repeated characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.254Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - No vowel consonant mash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.371Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - Keyboard walk
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.489Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category invalid validation - Script payload
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.610Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Category Add suggestion hidden - Meaningless random asdqweu
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.730Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "asdqweu"
+- Field Value: "asdqweu"
+- Add Category Visible: true
+- Error Visible: false
+- Error Text: N/A
+
+RECOVERY ACTION
+---------------
+Record the Add Category failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category Add suggestion hidden - Meaningless random zxcvbnm
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.829Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category Add suggestion hidden - Meaningless random qwertyu
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:03.951Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Category Add suggestion hidden - Meaningless random plmokni
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.115Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "plmokni"
+- Field Value: "plmokni"
+- Add Category Visible: true
+- Error Visible: false
+- Error Text: N/A
+
+RECOVERY ACTION
+---------------
+Record the Add Category failure and continue with the next scenario.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category empty Continue is blocked
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.158Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Business Category max length cap
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.231Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Expected max length: 30
+- Actual length: 45
+
+RECOVERY ACTION
+---------------
+Record the boundary failure and continue with positive category checks.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category Add box trims repeated spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.390Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category existing category does not show Add Category
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.470Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category duplicate category is case-insensitive
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.547Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category meaningful custom category shows Add Category
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.610Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category positive scenario - Existing category Restaurant
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:04.927Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category positive scenario - Existing category Salon
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:05.361Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category positive scenario - Meaningful custom category Pet Grooming
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:06.057Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category positive scenario - Final existing category Restaurant
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:06.272Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category Continue moves to next onboarding screen
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:07.328Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Store onboarding session for Business Details
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:07.830Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Business Category resume dashboard URL verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:14.464Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Draft Agent card verification
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:14.616Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Draft Agent resume state matches completed pages, previous, and last_opened
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:14.638Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Continue Setup resumes last_opened URL
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:14.920Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Continue Setup resumes last_opened screen - Business Details
+Severity: CRITICAL
+Timestamp: 2026-08-08T08:35:15.206Z
+Failure Reason: Expected Business Details, but application resumed to business_category.
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"business_[7mdetails[27m"[39m
+Received: [31m"business_[7mcategory[27m"[39m
+Exception: Error: Expected Business Details, but application resumed to business_category.
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"business_[7mdetails[27m"[39m
+Received: [31m"business_[7mcategory[27m"[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:2267:9)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+    at verifyBusinessCategoryResume (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:2259:35)
+    at runBusinessCategoryAutomation (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\flows\full-signup-onboarding.flow.js:2608:16)
+    at runOnboardingAfterSignup (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\onboarding-browsercloses-flow\signup-onboarding.flow.js:42:31)
+    at C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\tests\authentication\signup\signup.placeholder.spec.js:440:5
+
+IMPACT
+------
+- Expected resume screen: Business Details
+- If the app resumes to Business Category instead, recovery should start immediately.
+
+RECOVERY ACTION
+---------------
+Stop Business Category automation and review saved onboarding screen state.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Recover Business Details resume from completed Business Category
+Severity: RECOVERY
+Timestamp: 2026-08-08T08:35:16.443Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------

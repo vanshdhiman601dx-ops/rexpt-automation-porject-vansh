@@ -1,0 +1,1090 @@
+ASSERTION IMPACT REPORT
+=======================
+Execution Started: 2026-08-08T08:35:55.501Z
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Empty field
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:56.333Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:56.954Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Plain text
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:57.679Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Missing protocol
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:58.414Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Missing domain
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:59.021Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Missing TLD
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:35:59.811Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Missing domain name
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:00.507Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Invalid protocol
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:01.272Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Misspelled protocol
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:01.924Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - No colon after protocol
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:02.730Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Single slash after protocol
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:03.560Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Too many slashes
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:04.364Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Space in URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:05.079Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Leading space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:05.848Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Trailing space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:06.676Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Double dots
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:07.539Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Starts with dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:08.375Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Ends with dot
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:09.160Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Invalid characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:09.903Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:10.698Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Special characters only
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:11.392Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Multiple protocols
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:12.350Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - FTP URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:13.215Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - File URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:13.956Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Mailto URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:14.852Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - JavaScript URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:15.619Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Data URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:16.483Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - SQL Injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:17.121Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - SQL Drop
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:17.909Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - XSS Script
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:18.803Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - HTML Tags
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:19.631Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - JSON
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:20.534Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - XML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:21.380Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Backslash
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:22.135Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Forward slash only
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:22.796Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Consecutive slashes
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:23.713Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Invalid IP
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:24.533Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Invalid port
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:25.438Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Non-English domain
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:26.510Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Zero-width space
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:27.292Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - New line
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:28.135Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Tab
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:28.878Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Extremely long URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:29.452Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - 1 character
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:29.954Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Below minimum length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:30.582Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Web URL validation - Exactly minimum valid URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:33.618Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "a.co"
+- Input Method: Typing
+- Entered Value: "https://a.co"
+- Stored Value Attribute: "https://a.co"
+- Popup Visible: true
+- Valid URL Icon Visible: false
+- Invalid URL Icon Visible: true
+- Continue Enabled Before Click: true
+- No Website Checkbox Checked Before Validation: false
+- No Website Checkbox Checked After Validation: false
+- No Website Checkbox Auto-check Bug Logged: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178193331-update-web-url-exactly-minimum-valid-url.png
+
+RECOVERY ACTION
+---------------
+Record the Web URL validation failure and continue with the next URL case.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details Web URL validation - Maximum supported length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:36.230Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Test Data: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+- Input Method: Paste
+- Entered Value: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+- Stored Value Attribute: "https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com"
+- Popup Visible: true
+- Valid URL Icon Visible: false
+- Invalid URL Icon Visible: true
+- Continue Enabled Before Click: true
+- No Website Checkbox Checked Before Validation: false
+- No Website Checkbox Checked After Validation: false
+- No Website Checkbox Auto-check Bug Logged: false
+- Redirected To AI Sounds: false
+- Recovered From AI Sounds: false
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178195970-update-web-url-maximum-supported-length.png
+
+RECOVERY ACTION
+---------------
+Record the Web URL validation failure and continue with the next URL case.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Above maximum length
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:36.503Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste only spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:37.110Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste plain text
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:37.663Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste email
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:38.234Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste phone number
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:38.748Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste SQL injection
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:39.300Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste XSS payload
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:39.800Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste HTML
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:40.396Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste JavaScript URL
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:40.934Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste URL with leading/trailing spaces
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:41.505Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste URL with emoji
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:42.095Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste hidden zero-width characters
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:42.646Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+PASS
+------
+Assertion Name: Update Business Details Web URL validation - Paste URL longer than max
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:43.215Z
+Failure Reason: N/A
+Exception: N/A
+
+IMPACT
+------
+- No downstream impact.
+
+RECOVERY ACTION
+---------------
+No recovery required.
+
+----------------------------------------
+FAIL
+------
+Assertion Name: Update Business Details positive Web URL accepted
+Severity: VALIDATION
+Timestamp: 2026-08-08T08:36:48.332Z
+Failure Reason: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+Exception: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+    at assert (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:93:56)
+    at ResilientAssertions.run (C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\utils\Assertions.js:24:7)
+
+IMPACT
+------
+- Positive Web URL: designersx.us
+- Entered Value: "https://designersx.us"
+- Stored Value Attribute: "https://designersx.us"
+- Popup Visible: false
+- Valid URL Icon Visible: false
+- Invalid URL Icon Visible: false
+- Screenshot: C:\Users\Designersx\Desktop\Rexpt_Automation_Project_2021239054\rexpt-automation-script\reports\screenshots\business-details\1786178208143-update-web-url-positive.png
+
+RECOVERY ACTION
+---------------
+Record the positive Web URL failure before moving to the next Update Business Details field.
+
+----------------------------------------

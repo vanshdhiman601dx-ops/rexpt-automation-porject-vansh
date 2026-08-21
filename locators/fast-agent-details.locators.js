@@ -42,15 +42,30 @@ export const fastAgentDetailsLocators = {
     stepDot: (label, state) => `[aria-label="${label} (${state})"]`,
   },
 
+  greatProgress: {
+    card: '[class*="setupProgress"]:has-text("Great Progress!")',
+    title: 'text="Great Progress!"',
+    subtitle: 'text="Complete setup to unlock all features."',
+    percentLabel: '[class*="percentLabel"]',
+    continueButton: 'button:has-text("Continue")',
+  },
+
   agentCard: {
     card: 'text=/AI Agent Phone Number/',
     agentAvatar: 'img[alt="agent_dp"]',
     editAgentButton: '#tour-edit-agent',
-    planStatus: 'text=/Free|Demo|Starter|Scaler|Growth|PAYG/i',
+    planStatus: '[class*="planStatus"]',
+    planStatusText: 'text=/Free|Demo|Starter|Scaler|Growth|PAYG/i',
+    freePlanStatus: '[class*="planStatus"]:has-text("free"), [class*="planStatus"]:has-text("Free")',
+    agentName: '[class*="AgentName"]',
+    businessName: '[class*="bussinesName"]',
+    languageBadge: '[class*="language"]',
     liveStatus: 'text="Live"',
     inactiveStatus: 'text="Inactive"',
+    activeStatus: '[class*="activeStatus"]',
     readyNotLiveStatus: 'text="Ready (not live)"',
     phoneNumberSection: 'text="AI Agent Phone Number"',
+    notAssignedWrapper: '[class*="notAssign"]',
     notAssignedText: 'text="Not assigned yet"',
     testAgentCallButton: '[role="button"]:has-text("Test Agent Call")',
     assignPhoneNumberButton: '[role="button"]:has-text("Assign Phone Number")',
@@ -65,9 +80,17 @@ export const fastAgentDetailsLocators = {
     sectionTitle: 'text="Your Public Agent Url"',
     container: '#tour-public-agent-url',
     urlText: '#tour-public-agent-url h3',
+    linkEditContainer: '#tour-public-agent-url [class*="linkEdit"]',
     editButton: 'button[title="Edit Public URL"]',
+    editIcon: 'img[alt="edit-svg2"]',
     copyButton: 'img[alt="Copy"]',
+    copyButtonWrapper: '#tour-public-agent-url [class*="copyButton"]',
     copiedTooltip: 'text="Copied!"',
+    lockedWrapper: '[class*="lockWrapper"]:has(#tour-public-agent-url)',
+    lockIcon: '[class*="lockWrapper"]:has(#tour-public-agent-url) [class*="lockIcon"]',
+    lockToast: '[class*="lockWrapper"]:has(#tour-public-agent-url) [class*="toast"]',
+    upgradeLockMessage: 'text="Upgrade your plan to unlock your public agent URL."',
+    driveLockMessage: 'text="Connect Google Drive to use this."',
   },
 
   publicUrlModal: {
@@ -86,9 +109,15 @@ export const fastAgentDetailsLocators = {
   agentAnalysis: {
     title: 'text="Agent Analysis"',
     totalCallsCard: '#tour-total-calls',
+    totalCallsLabel: '#tour-total-calls [class*="statText"]',
+    totalCallsValue: '#tour-total-calls [class*="statDetail"]',
     avgCallDurationCard: '[role="button"]:has-text("Avg. Call Duration")',
+    avgCallDurationValue:
+      '[role="button"]:has-text("Avg. Call Duration") [class*="statDetail"]',
     bookingsCard: '[role="button"]:has-text("Bookings")',
-    minutesRemainingCard: 'text="Minutes Remaining"',
+    bookingsValue: '[role="button"]:has-text("Bookings") [class*="statDetail"]',
+    minutesRemainingCard: '[class*="stat"]:has-text("Minutes Remaining")',
+    minutesRemainingValue: '[class*="stat"]:has-text("Minutes Remaining") [class*="statDetail"]',
   },
 
   footer: {
